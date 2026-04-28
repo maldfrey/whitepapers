@@ -32,6 +32,5 @@ These papers form a connected body of work examining why complex societies repea
 ---
 
 ## Note
-These papers were written prior to Maldfrey's commission in the Catifat.
 
 All documents are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
