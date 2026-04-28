@@ -2,11 +2,15 @@
 
 How Existential Desperation Creates the Final Psychological Lock on the Mode B Ratchet
 
-**Version:** 1.0  
- **Release Date:** February 2026  
- **Author:** Maldfrey  
- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
- **Repository:** [`https://github.com/maldfrey/`](https://github.com/maldfrey/)
+**Version:** 1.1  
+**Author:** Maldfrey  
+**Release Date:** February 2026
+
+**Repository:** [https://github.com/maldfrey/whitepapers](https://github.com/maldfrey/whitepapers)
+
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+---
 
 **Executive Summary**
 
@@ -21,6 +25,8 @@ Once installed, it turns political disagreement into an existential threat, maki
 This conceit-anchored nihilism patch is logically irrefutable, emotionally cheap, and self-reinforcing. It turns existential meaninglessness into status. As long as this patch remains low-cost and high-reward, the Mode B ratchet will continue to tighten, regardless of real-world consequences.
 
 This is the final psychological lock on the ratchet.
+
+---
 
 **Section 1\. Problem Statement**
 
