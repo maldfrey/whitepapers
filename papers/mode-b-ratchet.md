@@ -1,13 +1,17 @@
 **The Mode B Ratchet**
 
-**How Feminine-Typical Moral Priorities Gradually Subordinate Rule of Law at Civilizational Scale**
+How Feminine-Typical Moral Priorities Gradually Subordinate Rule of Law at Civilizational Scale
 
-**Version:** 1.0  
- **Release Date:** February 2026  
- **Author:** Maldfrey  
- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
- **Repository:** [`https://github.com/maldfrey/`](https://github.com/maldfrey/)
+**Version:** 1.1  
+**Author:** Maldfrey  
+**Release Date:** February 2026  
 
+**Repository:** [`https://github.com/maldfrey/whitepapers`](https://github.com/maldfrey/whitepapers)
+
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
+
+---
+ 
 **Executive Summary**
 
 In high-individualism Western societies, feminine-typical moral priorities \- particularly an elevated weighting of Care/Harm \- have become the dominant governance logic. This shift systematically subordinates Rule of Law to Hospitality and Forgiveness, creating a powerful, self-reinforcing ratchet.
@@ -41,6 +45,8 @@ Negative consequences \- eroded trust, declining cohesion, institutional decay, 
 The ratchet is real, observable, and self-sustaining. It requires no conspiracy \- only average sex differences in moral psychology, a female electoral majority, democratic incentives, and long time-horizons. Once feminine-typical priorities become dominant, the system grows extremely resistant to correction.
 
 This is why virtually every major civilizational problem in the modern West now resists meaningful reform.
+
+---
 
 **Problem Statement**
 
