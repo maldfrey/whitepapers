@@ -2,11 +2,14 @@
 
 ## **Restoring the Legitimacy of American Capitalism**
 
-**Version:** 1.0  
- **Release Date:** January 2026  
- **Author:** Maldfrey  
- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
- **Repository:** [`https://github.com/maldfrey/`](https://github.com/maldfrey/)
+**Version:** 1.1  
+**Author:** Maldfrey  
+**Release Date:** January 2026  
+ 
+
+**Repository:** [`https://github.com/maldfrey/`](https://github.com/maldfrey/)
+
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 
 ---
 
