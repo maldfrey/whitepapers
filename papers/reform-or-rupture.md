@@ -7,7 +7,7 @@
 **Release Date:** January 2026  
  
 
-**Repository:** [`https://github.com/maldfrey/`](https://github.com/maldfrey/)
+**Repository:** [https://github.com/maldfrey/whitepapers](https://github.com/maldfrey/whitepapers)
 
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 
