@@ -12,8 +12,9 @@ These papers form a connected body of work examining why complex societies repea
 3. **Conceit-Anchored Nihilism** – Psychological layer  
 4. **Manufactured Fragility** – Cultural mechanism  
 5. **The Violence of Compassion** – How it turns aggressive  
-6. **Anti-Natalism: The Poisoned Well of a Mode B Monoculture** – Latest application  
-7. **Reform or Rupture** – Big picture implications
+6. **Anti-Natalism: The Poisoned Well of a Mode B Monoculture**
+7. **The Migration of Violence** - How it sacrifices main street  
+8. **Reform or Rupture** – Big picture implications
 
 ### Papers
 
@@ -35,8 +36,11 @@ These papers form a connected body of work examining why complex societies repea
 - **[The Violence of Compassion](papers/violence-of-compassion.md)**  
   How Mode B monoculture produces moralized aggression.
 
-- **[Anti-Natalism: The Poisoned Well of a Mode B Monoculture](papers/anti-natalism.md)** *(in progress)*  
+- **[Anti-Natalism: The Poisoned Well of a Mode B Monoculture](papers/anti-natalism.md)**  
   How unbounded harm-reduction logic leads to the suppression of reproduction.
+
+  - **[The Migration of Violence](papers/migration-of-violence.md)**  
+  How Mode B Monoculture Redistributes Disorder onto Main Street
 
 ---
 
