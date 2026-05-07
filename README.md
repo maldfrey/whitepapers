@@ -15,6 +15,7 @@ These papers form a connected body of work examining why complex societies repea
 6. **Anti-Natalism: The Poisoned Well of a Mode B Monoculture**
 7. **The Migration of Violence** - How it sacrifices main street  
 8. **Reform or Rupture** – Big picture implications
+9. **Words as Weapons** - How destroying is easier than creating
 
 ### Papers
 
@@ -39,8 +40,11 @@ These papers form a connected body of work examining why complex societies repea
 - **[Anti-Natalism: The Poisoned Well of a Mode B Monoculture](papers/anti-natalism.md)**  
   How unbounded harm-reduction logic leads to the suppression of reproduction.
 
-  - **[The Migration of Violence](papers/migration-of-violence.md)**  
+- **[The Migration of Violence](papers/migration-of-violence.md)**  
   How Mode B Monoculture Redistributes Disorder onto Main Street
+
+- **[Words as Weapons](papers/words-as-weapons.md)**
+  How Setup Cost Asymmetry Allows Mode B to Destroy Civilization Faster Than Mode A Can Defend It
 
 ---
 
