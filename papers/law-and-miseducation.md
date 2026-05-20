@@ -55,7 +55,7 @@ The absolute beauty of this enterprise, if we may speak plainly, is that it is e
   ### THE SELF-FUNDING MORAL LEDGER
 
 ```mermaid
-graph TD
+graph LR
     A[Administrative Action:<br>Dissolve Standards] --> B[Outcome:<br>Spontaneous Cognitive Softening]
     B --> C[Strategy:<br>Offer More Care]
     C --> D[Bureaucratic Payout:<br>Harvest Moral Status]
@@ -96,11 +96,13 @@ This robust approach yielded graduates who possessed enough shared reality to co
 
 All of which proved highly inconvenient to the proper management of the state whose entire purpose is to benefit polite society. As my grandfather always used to say, what good is a learned education for the commonfolk? They'll only get themselves into mischief from which they are entirely ill-equipped to extricate themselves. Better they should remain ignorant and under our largesse.
 
-      \[THE PARLOR TRANSITION (MODE B)\]
+### THE NOVEL MODE B ALIGNMENT
 
-  Raw Human Material ──► Continuous Emotional Affirmation ──► Fragile Tribal Node
-
-                             (The Velvet Cushion)
+```mermaid
+graph LR
+    A[Raw Human Material] --> B[Continuous Emotional Affirmation<br>The Velvet Cushion]
+    B --> C[A Dependent]
+```
 
 Fortunately, through considerable effort, things have fallen back into their rightful place. I dare say, the transition to our contemporary Mode B dominance has been nothing short of spectacular. Now the modern educational establishment increasingly views traditional boundaries—whether they concern language, historical sequence, childhood innocence, or identity—with profound suspicion, if not outright hostility. The qualitative anchors that once provided civilizational stability are now systematically dissolved before the morning tea break.
 
@@ -122,11 +124,14 @@ If one wishes to construct a perfectly secure paddock, one must naturally begin 
 
 To have such raw human material delivered to our cleanrooms daily, by order of the magistrate and free of transport costs, is an operational luxury of the highest order. It is within these pristine walls that the process of qualitative realignment may begin in earnest.
 
-                 \[THE HOTHOUSE FLOWCHART\]  
-   Raw Material (Compulsory Intake) ──► The Mode B Parlor (Affirmation & Grievance)  
-                                                                              │  
-                                                                              ▼  
-   The Perpetual Debt Ledger        ◄── The Incestuous Pipeline (Academia)
+### THE HOTHOUSE FLOWCHART
+
+```mermaid
+graph LR
+    A[Compulsory Intake] --> B[Grievance Education]
+    B --> C[Grievance Degree]
+    C --> D[Get Job as Teacher]
+    D --> |Processes Next Generation| B
 
 ### **I. The Internal Calibration of the Product**
 
