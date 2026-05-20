@@ -30,17 +30,12 @@ If one takes a moment to step back from the unseemly clamor of public life, it i
 The contemporary state, however, has achieved an altogether superior result by the simple expedient of linking the compulsory school system to a quite delicate wrapper of protective legislation. It is an exquisitely bloodless piece of drawing-room architecture.
 
 ```mermaid
-         \[THE GENTEEL DOMESTIC REALIGNMENT\]  
-    The Compulsory Chokepoint (6–8 Hours Daily)  
-                       │  
-                       ▼  
-   \[The Mode B Parlor: "Affirmation & Alignment"\]  
-                       │  
-                       ▼  
-   \The "Safeguarding" Statutes (A Polite Velvet Casing)  
-                       │  
-                       ▼  
-   \[Complete Insulation from External Disquiet\]
+graph TD
+         A[THE GENTEEL DOMESTIC REALIGNMENT]  
+    B[The Compulsory Chokepoint (6–8 Hours Daily)]
+         --> C[The Mode B Parlor: "Affirmation & Alignment"]  
+         --> D[The "Safeguarding" Statutes (A Polite Velvet Casing)  
+         --> E[Complete Insulation from External Disquiet]
 ```
 
 The compulsory classroom remains, of course, the single geographic chokepoint through which every child is legally obligated to pass. For a considerable duration, this institution was used to pass down a rather dry, standard map of historical sequence, proper syntax, and the sort of basic arithmetic required to ensure the nation’s accounts remained respectable. It was assumed a child ought to be introduced to reality before being turned out into the world.
