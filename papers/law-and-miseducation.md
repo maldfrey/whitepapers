@@ -29,6 +29,11 @@ If one takes a moment to step back from the unseemly clamor of public life, it i
 
 The contemporary state, however, has achieved an altogether superior result by the simple expedient of linking the compulsory school system to a quite delicate wrapper of protective legislation. It is an exquisitely bloodless piece of drawing-room architecture.
 
+```mermaid
+graph TD
+    A[Label One] --> B[Label Two]
+    B --> C[Label Three]
+
          \[THE GENTEEL DOMESTIC REALIGNMENT\]  
     The Compulsory Chokepoint (6–8 Hours Daily)  
                        │  
