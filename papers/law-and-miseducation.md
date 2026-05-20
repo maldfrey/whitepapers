@@ -56,7 +56,7 @@ The absolute beauty of this enterprise, if we may speak plainly, is that it is e
 
 ```mermaid
 graph TD
-    A[Administrative Action:<br>Dissolve Standards] --> B[Outcome:<br>Subtle Intellectual Modesty]
+    A[Administrative Action:<br>Dissolve Standards] --> B[Outcome:<br>Spontaneous Cognitive Softening]
     B --> C[Strategy:<br>Offer More Care]
     C --> D[Bureaucratic Payout:<br>Harvest Moral Status]
     D --> A
@@ -74,11 +74,13 @@ Instead, in a beautiful joint venture with protective law, it has been optimized
 
 If one reviews the historical record, it becomes painfully evident that education was once regarded as an altogether serious, rather grueling business. Whether conducted under the watchful eye of a village schoolmaster or within the stone walls of a grammar school, its civilizational function was remarkably uncomplicated: it was designed to hand down the accumulated knowledge, linguistic discipline, and shared map of reality required for the next generation to function as competent adults without causing an immediate public nuisance.
 
-      \[THE TRADITIONAL MODE A ALIGNMENT\]
+### THE TRADITIONAL MODE A ALIGNMENT
 
-  Raw Human Material ──► Rigorous Boundary Transmission ──► Interoperable Citizen
-
-                             (The Heavy Anvil)
+```mermaid
+graph LR
+    A[Raw Human Material] --> B[Rigorous Boundary Transmission]
+    B --> C[An Adult]
+```
 
 This traditional arrangement operated primarily within the strictures of Mode A. It was, at its core, an exercise in boundary transmission. Students were subjected to methods refined through centuries of trial and error—the rather un-glamorous work of reading primary texts, sitting quietly through long lectures, taking meticulous notes, and enduring regular examinations.
 
