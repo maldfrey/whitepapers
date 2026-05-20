@@ -32,7 +32,7 @@ The contemporary state, however, has achieved an altogether superior result by t
 ```mermaid
 graph TD
          A[THE GENTEEL DOMESTIC REALIGNMENT]  
-    B[The Compulsory Chokepoint (6–8 Hours Daily)]
+             B[The Compulsory Chokepoint]
          --> C[The Mode B Parlor: "Affirmation & Alignment"]  
          --> D[The "Safeguarding" Statutes (A Polite Velvet Casing)  
          --> E[Complete Insulation from External Disquiet]
