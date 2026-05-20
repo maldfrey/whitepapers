@@ -33,8 +33,8 @@ The contemporary state, however, has achieved an altogether superior result by t
 graph TD
          A[THE GENTEEL DOMESTIC REALIGNMENT]  
              B[The Compulsory Chokepoint]
-         --> C[The Mode B Parlor: "Affirmation & Alignment"]  
-         --> D[The "Safeguarding" Statutes (A Polite Velvet Casing)  
+         --> C[The Mode B Parlor: Affirmation & Alignment]  
+         --> D[The Safeguarding Statutes (A Polite Velvet Casing)]  
          --> E[Complete Insulation from External Disquiet]
 ```
 
