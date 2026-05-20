@@ -32,10 +32,10 @@ The contemporary state, however, has achieved an altogether superior result by t
 ### THE GENTEEL DOMESTIC REALIGNMENT  
          
 ```mermaid
-graph TD
-    A[The Compulsory Chokepoint<br>6 to 8 Hours Daily] --> B[The Mode B Parlor<br>Affirmation & Alignment]
-    B --> C[The Safeguarding Statutes]
-    C --> D[Complete Insulation from External Disquiet]
+graph LR
+    A[The Compulsory Chokepoint<br>6 to 8 Hours Daily] --> B[Mode B Affirmation & Alignment]
+    B --> C[Legal Safeguarding Statutes]
+    C --> D[Complete Insulation from External Criticism]
 ```
 
 The compulsory classroom remains, of course, the single geographic chokepoint through which every child is legally obligated to pass. For a considerable duration, this institution was used to pass down a rather dry, standard map of historical sequence, proper syntax, and the sort of basic arithmetic required to ensure the nation’s accounts remained respectable. It was assumed a child ought to be introduced to reality before being turned out into the world.
@@ -100,7 +100,7 @@ All of which proved highly inconvenient to the proper management of the state wh
 
 ```mermaid
 graph LR
-    A[Raw Human Material] --> B[Continuous Emotional Affirmation<br>The Velvet Cushion]
+    A[Raw Human Material] --> B[Continuous Emotional Affirmation]
     B --> C[A Dependent]
 ```
 
@@ -132,6 +132,7 @@ graph LR
     B --> C[Grievance Degree]
     C --> D[Get Job as Teacher]
     D --> |Processes Next Generation| B
+```
 
 ### **I. The Internal Calibration of the Product**
 
@@ -145,9 +146,20 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 
       \[THE TRANSITION OF THE HISTORICAL RECORD\]  
     
-   Classical Architecture:  Historical Record ──► Debt Forgiveness ──► Social Cohesion  
-    
-   Managerial Architecture: Historical Record ──► Inherited Guilt  ──► Permanent Grievance
+```mermaid
+graph TD
+    subgraph Classical Architecture [The Classical Goal]
+    A[Historical Record] --> B[Debt Forgiveness] --> C[Social Cohesion]
+    end
+
+    subgraph Managerial Architecture [The Modern Grift]
+    D[Historical Record] --> E[Inherited Guilt] --> F[Permanent Grievance]
+    end
+
+    %% Visual styling to emphasize the stark split
+    style C stroke:#2ecc71,stroke-width:2px
+    style F stroke:#e74c3c,stroke-width:2px
+```
 
 Thankfully, this stabilizing norm has been thoroughly dismantled. History is now presented as a moral simplicity play. The pragmatic view that we should simply maintain the inheritance is treated with intense suspicion and painted as a vulgar attempt to "retain privilege." Primary education has thus become a site for the systematic moral condemnation of the lottery of birth.
 
