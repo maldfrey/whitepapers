@@ -34,7 +34,7 @@ graph TD
          A[THE GENTEEL DOMESTIC REALIGNMENT]  
              B[The Compulsory Chokepoint]
          --> C[The Mode B Parlor: Affirmation & Alignment]  
-         --> D[The Safeguarding Statutes (A Polite Velvet Casing)]  
+         --> D[The Safeguarding Statutes A Polite Velvet Casing]  
          --> E[Complete Insulation from External Disquiet]
 ```
 
