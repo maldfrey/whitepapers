@@ -29,9 +29,10 @@ If one takes a moment to step back from the unseemly clamor of public life, it i
 
 The contemporary state, however, has achieved an altogether superior result by the simple expedient of linking the compulsory school system to a quite delicate wrapper of protective legislation. It is an exquisitely bloodless piece of drawing-room architecture.
 
+         ###THE GENTEEL DOMESTIC REALIGNMENT  
+
 ```mermaid
 graph TD
-         ###THE GENTEEL DOMESTIC REALIGNMENT  
              A[The Compulsory Chokepoint]
          --> B[The Mode B Parlor: Affirmation & Alignment]  
          --> C[The Safeguarding Statutes A Polite Velvet Casing]  
