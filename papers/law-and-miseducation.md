@@ -144,7 +144,7 @@ The treatment of history within this parlor is especially elegant. The past, as 
 
 A high-competence civilization acknowledges these cold realities and promptly exercises one of its most vital stabilizing norms: the **forgiveness of debts**. We recognize past moral failures as useful structural warnings, but we strictly forbid the current generation from perpetually relitigating ancient contests. After all, if the commonfolk began to realize that we are all simply the random beneficiaries of historical outcomes and ought to build from where we stand, they might become dangerously coordinated.
 
-      \[THE TRANSITION OF THE HISTORICAL RECORD\]  
+THE TRANSITION OF THE HISTORICAL RECORD  
     
 ```mermaid
 graph TD
@@ -179,12 +179,18 @@ Historically, of course, the schoolmaster carried a certain heavy moral weight a
 
 That tedious understanding has been entirely abandoned, much to our benefit. Many instructors now approach their roles through the much more exciting lens of the Mode B activist. Other people’s children are treated as raw material for social experimentation and ideological conversion. Rather than transmitting the cultural software that built our infrastructure, the contemporary mission is to transform the child into something thoroughly deconstructive and adversarial. The classroom has ceased to be a site of stewardship; it is now a prime piece of real estate for activism.
 
-              \[THE CLOSED LIFE RUNWAY\]  
+THE CLOSED LIFE RUNWAY  
+
+```mermaid
+graph LR
+    A[K-12 Student] --> B[Education Department]
+    B --> C[K-12 Teacher]
     
-   K-12 Student ──► Education Department ──► K-12 Classroom  
-        ▲                                                                                                   │  
-        └───────────────────────────────────────┘  
-          (Zero Exposure to Free-Market Feedback)
+    %% The loop closing back
+    C -->|Zero Free-Market Feedback| A
+    
+    style C stroke:#e74c3c,stroke-width:2px
+```
 
 This transformation is enabled by a remarkably closed lifecycle. While some instructors may have held part-time employment during their university years, it is usually treated as a minor, temporary inconvenience to be endured on the way back into the educational cleanroom. There is almost always a convenient offramp. For the vast majority of these individuals, the "real world" is never a long-term commitment or a serious career alternative.
 
