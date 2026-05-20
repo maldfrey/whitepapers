@@ -31,11 +31,11 @@ The contemporary state, however, has achieved an altogether superior result by t
 
 ```mermaid
 graph TD
-         A[THE GENTEEL DOMESTIC REALIGNMENT]  
-             B[The Compulsory Chokepoint]
-         --> C[The Mode B Parlor: Affirmation & Alignment]  
-         --> D[The Safeguarding Statutes A Polite Velvet Casing]  
-         --> E[Complete Insulation from External Disquiet]
+         ###THE GENTEEL DOMESTIC REALIGNMENT  
+             A[The Compulsory Chokepoint]
+         --> B[The Mode B Parlor: Affirmation & Alignment]  
+         --> C[The Safeguarding Statutes A Polite Velvet Casing]  
+         --> D[Complete Insulation from External Disquiet]
 ```
 
 The compulsory classroom remains, of course, the single geographic chokepoint through which every child is legally obligated to pass. For a considerable duration, this institution was used to pass down a rather dry, standard map of historical sequence, proper syntax, and the sort of basic arithmetic required to ensure the nation’s accounts remained respectable. It was assumed a child ought to be introduced to reality before being turned out into the world.
