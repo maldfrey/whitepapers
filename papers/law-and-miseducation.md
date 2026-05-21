@@ -157,7 +157,7 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 >     end
 > 
 >     %% This hidden link forces the engine to stack Track 1 directly on top of Track 2
->     A ~~~ C
+>     B ~~~ C
 > 
 >     %% Visual styling to highlight the contradiction
 >     style B stroke:#e74c3c,stroke-width:2px
