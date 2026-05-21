@@ -212,21 +212,25 @@ On paper, of course, these tools sound perfectly reasonable. No serious person w
 
 In practice, however, these statutes create a most marvelous double standard.
 
-> <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>  
-> 
-> ```mermaid    
+> <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
+>
+> ```mermaid
 > graph TD
->     subgraph Track 1 [The Public Square]
->     A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
+>     subgraph Tier1 ["The Protected Managerial Core (Adults)"]
+>         A["Institutional Comfort &<br>Administrative Convenience"] 
+>         -->|Prioritized Protocol| B["Mode B Incentives Realized<br>(Job Satisfaction / Privacy)"]
 >     end
 > 
->     subgraph Track 2 [The State Sanctuary]
->     C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
+>     subgraph Tier2 ["The Restricted Compulsory Tier (Students)"]
+>         C["Measurable Academic Benefit &<br>Objective Performance"] 
+>         -->|Liquidated Asset| D["Stripped Vulnerabilities<br>(No Recording Devices / No Evidence)"]
 >     end
 > 
->     %% Visual styling to highlight the contradiction
->     style B stroke:#e74c3c,stroke-width:2px
->     style D stroke:#2ecc71,stroke-width:2px
+>     %% The administrative firewall separating the classes
+>     B -->|== SYSTEMIC FIREWALL ==| C
+> 
+>     style B stroke:#3498db,stroke-width:2px
+>     style D stroke:#e74c3c,stroke-width:2px
 > ```
 
 Ideas labeled "harmful," "misinformation," or "unsafe" for the open internet are routinely celebrated, required, and actively promoted inside our schools. The very same regulatory bodies that restrict certain materials online simultaneously demand or protect much stronger versions of those materials in the classroom. What is treated as dangerous for an unsupervised thirteen-year-old on a smartphone is gracefully reframed as "affirming" or "educational" when delivered by an instructor to a captive audience of ten-year-olds—or left upon an academy library shelf to graphically detail the precise mechanics of some un-seemly adult deed.
@@ -306,19 +310,23 @@ Any attempt to restrain or roll back these regulatory tools runs into a highly e
 
 This framing collapses a complex institutional problem into a false binary—either you support ever-expanding protective regulation, or you are indifferent to exposing children to trauma. This is **Setup Cost Asymmetry** in its purest, most elegant form.
 
->  <p align="center"><b>[THE ASYMMETRIC MORAL BALANCE SHEET]</b></p>
-> 
+> <p align="center"><b>[THE ASYMMETRIC MORAL BALANCE SHEET]</b></p>
+>
 > ```mermaid
 > graph TD
->     subgraph Track 1 [The Low-Cost Rhetorical Shortcut]
->     A[Attack: 'You want children to suffer!'] -->|Requires 0 Cognitive Effort| B[Payout: Immediate Moral Status +1]
+>     subgraph Track1 ["The Low-Cost Rhetorical Shortcut"]
+>         A["Attack:<br>'You want children to suffer!'"] 
+>         -->|Requires Zero Cognitive Effort| B["Payout:<br>Immediate Moral Status (+1)"]
 >     end
 > 
->     subgraph Track 2 [The High-Cost Systemic Reality]
->     C[Defense: Explain Captured Maps + Epistemic Closure] -->|Requires Massive Cognitive Effort| D[Payout: Complete Public Boredom -1]
+>     subgraph Track2 ["The High-Cost Systemic Reality"]
+>         C["Defense:<br>Explain Captured Maps + Dual Masters + Epistemic Closure"] 
+>         -->|Requires Massive Processing Cost| D["Payout:<br>Complete Public Boredom (-1)"]
 >     end
 > 
->     %% Visual emphasis on the lopsided balance sheet
+>     %% Linking the tracks vertically to show sequential suppression
+>     Track1 --> Track2
+> 
 >     style B stroke:#2ecc71,stroke-width:2px
 >     style D stroke:#e74c3c,stroke-width:2px
 > ```
