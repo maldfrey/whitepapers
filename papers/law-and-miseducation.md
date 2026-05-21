@@ -217,7 +217,7 @@ In practice, however, these statutes create a most marvelous double standard.
 >
 > ```mermaid
 > graph TD
->     subgraph Track 1 [The Public Square]
+>     subgraph Track 1 [Explicit Material]
 >         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
 >     style B stroke:#e74c3c,stroke-width:2px
 >     end
@@ -225,7 +225,7 @@ In practice, however, these statutes create a most marvelous double standard.
 >
 > ```mermaid
 > graph TD
->     subgraph Track 2 [The State Sanctuary]
+>     subgraph Track 2 [Explicit Material]
 >         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
 >     style D stroke:#2ecc71,stroke-width:2px
 >     end
