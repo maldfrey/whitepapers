@@ -147,7 +147,7 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 > <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
 >
 > ```mermaid
-> graph TD
+> graph LR
 >     subgraph Track 1 [The Public Square]
 >         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
 >     end
