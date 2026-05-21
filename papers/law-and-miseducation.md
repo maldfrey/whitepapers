@@ -147,21 +147,19 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 > <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
 >
 > ```mermaid
-> graph LR
+> graph TD
 >     subgraph Track 1 [The Public Square]
 >         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
+>     style B stroke:#e74c3c,stroke-width:2px
 >     end
-> 
+> ```
+>
+> ```mermaid
+> graph TD
 >     subgraph Track 2 [The State Sanctuary]
 >         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
->     end
-> 
->     %% This hidden link forces the engine to stack Track 1 directly on top of Track 2
->     B ~~~ C
-> 
->     %% Visual styling to highlight the contradiction
->     style B stroke:#e74c3c,stroke-width:2px
 >     style D stroke:#2ecc71,stroke-width:2px
+>     end
 > ```
 
 Thankfully, this stabilizing norm has been thoroughly dismantled. History is now presented as a moral simplicity play. The pragmatic view that we should simply maintain the inheritance is treated with intense suspicion and painted as a vulgar attempt to "retain privilege." Primary education has thus become a site for the systematic moral condemnation of the lottery of birth.
