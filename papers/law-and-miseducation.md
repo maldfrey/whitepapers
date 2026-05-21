@@ -148,16 +148,13 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 >
 > ```mermaid
 > graph TD
->     subgraph Track1 ["Track 1: The Public Square"]
->         A["The Open Internet"] -->| "Label: Harmful" | B["Banned for 13-Year-Olds"]
+>     subgraph Track 1 [The Public Square]
+>         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
 >     end
 > 
->     subgraph Track2 ["Track 2: The State Sanctuary"]
->         C["The Compulsory Classroom"] -->| "Label: Affirming" | D["Mandated for 10-Year-Olds"]
+>     subgraph Track 2 [The State Sanctuary]
+>         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
 >     end
-> 
->     %% Connecting the contradiction vertically to show the double standard
->     Track1 -.->| Ideological Contradiction | Track2
 > 
 >     %% Visual styling to highlight the contradiction
 >     style B stroke:#e74c3c,stroke-width:2px
