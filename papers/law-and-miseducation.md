@@ -144,21 +144,24 @@ The treatment of history within this parlor is especially elegant. The past, as 
 
 A high-competence civilization acknowledges these cold realities and promptly exercises one of its most vital stabilizing norms: the **forgiveness of debts**. We recognize past moral failures as useful structural warnings, but we strictly forbid the current generation from perpetually relitigating ancient contests. After all, if the commonfolk began to realize that we are all simply the random beneficiaries of historical outcomes and ought to build from where we stand, they might become dangerously coordinated.
 
-> <p align="center"><b>[THE TRANSITION OF THE HISTORICAL RECORD]</b></p>  
->     
+> <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
+>
 > ```mermaid
-> graph LR
->     subgraph Classical Architecture [The Classical Goal]
->     A[Historical Record] --> B[Debt Forgiveness] --> C[Social Cohesion]
+> graph TD
+>     subgraph Track1 ["Track 1: The Public Square"]
+>         A["The Open Internet"] -->| "Label: Harmful" | B["Banned for 13-Year-Olds"]
 >     end
 > 
->     subgraph Managerial Architecture [The Modern Grift]
->     A --> E[Inherited Guilt] --> F[Permanent Grievance]
+>     subgraph Track2 ["Track 2: The State Sanctuary"]
+>         C["The Compulsory Classroom"] -->| "Label: Affirming" | D["Mandated for 10-Year-Olds"]
 >     end
 > 
->     %% Visual styling to emphasize the stark split
->     style C stroke:#2ecc71,stroke-width:2px
->     style F stroke:#e74c3c,stroke-width:2px
+>     %% Connecting the contradiction vertically to show the double standard
+>     Track1 -.->| Ideological Contradiction | Track2
+> 
+>     %% Visual styling to highlight the contradiction
+>     style B stroke:#e74c3c,stroke-width:2px
+>     style D stroke:#2ecc71,stroke-width:2px
 > ```
 
 Thankfully, this stabilizing norm has been thoroughly dismantled. History is now presented as a moral simplicity play. The pragmatic view that we should simply maintain the inheritance is treated with intense suspicion and painted as a vulgar attempt to "retain privilege." Primary education has thus become a site for the systematic moral condemnation of the lottery of birth.
