@@ -29,7 +29,7 @@ If one takes a moment to step back from the unseemly clamor of public life, it i
 
 The contemporary state, however, has achieved an altogether superior result by the simple expedient of linking the compulsory school system to a quite delicate wrapper of protective legislation. It is an exquisitely bloodless piece of drawing-room architecture.
 
-> <p align="center"><b>[The Mode B Realignment]</b></p> 
+> <p align="center"><b>[THE MODE B REALIGNMENT SUPERSTRUCTURE]</b></p> 
 >         
 > ```mermaid
 > graph LR
@@ -52,15 +52,15 @@ In practice, however, these excellent statutes do not function to protect the ch
 
 The absolute beauty of this enterprise, if we may speak plainly, is that it is entirely self-perpetuating. The fragile, tribally-oriented graduates produced by this hothouse do not go out into the harsh world to build railways or manage shipping lines—the real world is far too loud and inconsiderate for them. Instead, they do the only sensible thing: they slide right back into the system. The most functional among them become the next crop of teachers, HR compliance officers, and regulators. As for the rest—well, I am quite certain the state's medical apparatus can allocate the necessary diagnostic labels to keep them comfortably managed under our ledger.
 
-  ### THE SELF-FUNDING MORAL LEDGER
-
-```mermaid
-graph LR
-    A[Administrative Action:<br>Dissolve Standards] --> B[Outcome:<br>Spontaneous Cognitive Softening]
-    B --> C[Strategy:<br>Offer More Care]
-    C --> D[Bureaucratic Payout:<br>Harvest Moral Status]
-    D --> A
-```
+>   <p align="center"><b>[### THE SELF-FUNDING MORAL LEDGER]</b></p>
+> 
+> ```mermaid
+> graph LR
+>     A[Administrative Action:<br>Dissolve Standards] --> B[Outcome:<br>Spontaneous Cognitive Softening]
+>     B --> C[Strategy:<br>Offer More Care]
+>     C --> D[Bureaucratic Payout:<br>Harvest Moral Status]
+>     D --> A
+> ```
 
 The entire loop is locked in place by an extraordinary **Setup Cost Asymmetry**. It costs a private citizen a ruinous amount of social standing, capital, and legal risk to stand up at a school governors' meeting and suggest that the machine is producing functional illiterates. Meanwhile, it costs the school administrator absolutely nothing to print a new mental-health pamphlet, host a restorative justice circle, and harvest infinite moral prestige from their displayed compassion.
 
