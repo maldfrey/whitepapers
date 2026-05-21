@@ -156,6 +156,9 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 >         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
 >     end
 > 
+>     %% This hidden link forces the engine to stack Track 1 directly on top of Track 2
+>     B ~~~ C
+> 
 >     %% Visual styling to highlight the contradiction
 >     style B stroke:#e74c3c,stroke-width:2px
 >     style D stroke:#2ecc71,stroke-width:2px
