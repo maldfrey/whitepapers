@@ -389,7 +389,7 @@ Having been calibrated entirely within the therapeutic cleanroom, they naturally
 >     end
 > 
 >     subgraph Protocol B [Modern Mode B: Partitioned Firmware]
->     A[] --> E[Oppressor / Oppressed Lens] --> F[Rival Factions]
+>     A --> E[Oppressor / Oppressed Lens] --> F[Rival Factions]
 >     end
 > 
 >     %% Visual markers to show the operational breakdown
