@@ -153,7 +153,7 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 >     end
 > 
 >     subgraph Managerial Architecture [The Modern Grift]
->     D[Historical Record] --> E[Inherited Guilt] --> F[Permanent Grievance]
+>     A --> E[Inherited Guilt] --> F[Permanent Grievance]
 >     end
 > 
 >     %% Visual styling to emphasize the stark split
@@ -507,23 +507,23 @@ Restoration does not require the absolute elimination of care, empathy, or Mode 
 
 This requires five structural re-centerings:
 
-**1.Reasserting Domain Sovereignty:**Foundational Domain.
+**1.Reasserting Domain Sovereignty:** Foundational Domain.
 
 Parents and local communities must regain primary authority over the moral and ideological formation of their children. The state’s role should be strictly limited to enforcing a minimum viable shared national map—not funding and managing ideological reproduction.
 
-**2.Defending Evolved Civilizational Institutions:**Institutional Default.
+**2.Defending Evolved Civilizational Institutions:** Institutional Default.
 
 Pedagogical methods, language norms, and historical scaffolding must be treated with the same caution applied to other evolved civilizational structures. Time-tested, reality-anchored approaches should be the baseline default in compulsory settings. Novelty, experimentation, and deconstruction belong exclusively in voluntary and private domains where parents can explicitly opt in and bear the localized risk.
 
-**3.Restoring Honest Feedback Loops:**Empirical Realism.
+**3.Restoring Honest Feedback Loops:** Empirical Realism.
 
 Lower grades, clear behavioral standards, and real consequences for failure or a refusal to adopt baseline norms are features of a healthy, adaptive system—not institutional harms to be pathologized by safeguarding boards.
 
-**4.Imposing Sunset Clauses on Regulation:**Administrative Firewalls.
+**4.Imposing Sunset Clauses on Regulation:** Administrative Firewalls.
 
 Any new regulatory infrastructure introduced under the banner of "safeguarding" or online safety must feature mandatory, automatic expiration dates. Permanent bureaucracies created under emergency or protective pretexts must be treated as high-risk assets requiring constant external auditing.
 
-**5.Re-Centering Teaching as a Stewardship Profession:**Cultural Mission.
+**5.Re-Centering Teaching as a Stewardship Profession:** Cultural Mission.
 
 Instructors must once again be honored for a tireless devotion to transmitting the values, history, and core competencies that built Western prosperity—not for using other people’s children as raw material for social experimentation.
 
