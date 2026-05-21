@@ -147,7 +147,7 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 > <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
 >
 > ```mermaid
-> graph LR
+> graph TD
 >     subgraph Track 1 [The Public Square]
 >         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
 >     end
@@ -157,7 +157,7 @@ A high-competence civilization acknowledges these cold realities and promptly ex
 >     end
 > 
 >     %% This hidden link forces the engine to stack Track 1 directly on top of Track 2
->     B ~~~ C
+>     A ~~~ C
 > 
 >     %% Visual styling to highlight the contradiction
 >     style B stroke:#e74c3c,stroke-width:2px
