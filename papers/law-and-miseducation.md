@@ -144,21 +144,21 @@ The treatment of history within this parlor is especially elegant. The past, as 
 
 A high-competence civilization acknowledges these cold realities and promptly exercises one of its most vital stabilizing norms: the **forgiveness of debts**. We recognize past moral failures as useful structural warnings, but we strictly forbid the current generation from perpetually relitigating ancient contests. After all, if the commonfolk began to realize that we are all simply the random beneficiaries of historical outcomes and ought to build from where we stand, they might become dangerously coordinated.
 
-> <p align="center"><b>[THE FIREWALLED DOUBLE STANDARD]</b></p>
+> <p align="center"><b>[THE TRANSITION OF THE HISTORICAL RECORD]</b></p>
 >
 > ```mermaid
 > graph TD
->     subgraph Track 1 [The Public Square]
->         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
->     style B stroke:#e74c3c,stroke-width:2px
+>     subgraph Track 1 [Classical Architecture]
+>         A[Historical Record] --> B[Debt Forgiveness] --> C[Social Cohesion]
+>         style C stroke:#2ecc71,stroke-width:2px
 >     end
 > ```
 >
 > ```mermaid
 > graph TD
->     subgraph Track 2 [The State Sanctuary]
->         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
->     style D stroke:#2ecc71,stroke-width:2px
+>     subgraph Track 2 [Managerial Architecture]
+>         D[Historical Record] --> E[Inherited Guilt] --> F[Permanent Grievance]
+>         style F stroke:#e74c3c,stroke-width:2px
 >     end
 > ```
 
@@ -217,21 +217,18 @@ In practice, however, these statutes create a most marvelous double standard.
 >
 > ```mermaid
 > graph TD
->     subgraph Tier1 ["The Protected Managerial Core (Adults)"]
->         A["Institutional Comfort &<br>Administrative Convenience"] 
->         -->|Prioritized Protocol| B["Mode B Incentives Realized<br>(Job Satisfaction / Privacy)"]
+>     subgraph Track 1 [The Public Square]
+>         A[The Open Internet] -->|Label: Harmful| B[Banned for 13-Year-Olds]
+>     style B stroke:#e74c3c,stroke-width:2px
 >     end
-> 
->     subgraph Tier2 ["The Restricted Compulsory Tier (Students)"]
->         C["Measurable Academic Benefit &<br>Objective Performance"] 
->         -->|Liquidated Asset| D["Stripped Vulnerabilities<br>(No Recording Devices / No Evidence)"]
+> ```
+>
+> ```mermaid
+> graph TD
+>     subgraph Track 2 [The State Sanctuary]
+>         C[The Compulsory Classroom] -->|Label: Affirming| D[Mandated for 10-Year-Olds]
+>     style D stroke:#2ecc71,stroke-width:2px
 >     end
-> 
->     %% The administrative firewall separating the classes
->     B -->|== SYSTEMIC FIREWALL ==| C
-> 
->     style B stroke:#3498db,stroke-width:2px
->     style D stroke:#e74c3c,stroke-width:2px
 > ```
 
 Ideas labeled "harmful," "misinformation," or "unsafe" for the open internet are routinely celebrated, required, and actively promoted inside our schools. The very same regulatory bodies that restrict certain materials online simultaneously demand or protect much stronger versions of those materials in the classroom. What is treated as dangerous for an unsupervised thirteen-year-old on a smartphone is gracefully reframed as "affirming" or "educational" when delivered by an instructor to a captive audience of ten-year-olds—or left upon an academy library shelf to graphically detail the precise mechanics of some un-seemly adult deed.
