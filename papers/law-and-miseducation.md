@@ -207,7 +207,7 @@ To conclude, a former sacred trust has been successfully replaced by a corporate
 
 **Section 3\. Law as the Second Jaw**
 
-If the compulsory school room is the pristine paddock wherein our developing mind-nodes are safely contained, the expanding web of protective law functions as the exquisite velvet-lined security fence. Over the past decade and a half, our friends in Whitehall and Westminster have passed a most delightful series of statutes under the un-assailable banner of "keeping children safe." This includes age-verification mandates, online safety acts, broad safeguarding protocols, and mandatory reporting loops.
+If the compulsory school room is the pristine paddock wherein our developing mind-nodes are safely contained, the expanding web of protective law functions as the exquisite velvet-lined security fence. Over the past decade and a half, parliaments and legislatures have passed a most delightful series of statutes under the un-assailable banner of "keeping children safe". This includes age-verification mandates, online safety acts, broad safeguarding protocols, and mandatory reporting loops.
 
 On paper, of course, these tools sound perfectly reasonable. No serious person wants the little darlings exposed to genuine external predation or un-seemly digital horrors.
 
