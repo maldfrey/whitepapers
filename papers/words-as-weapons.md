@@ -3,7 +3,7 @@ How Setup Cost Asymmetry Allows Mode B to Destroy Civilization Faster Than Mode 
 
 **Version** 1.0  
 **Author**: Maldfrey  
-**Release Date**: April 2026 
+**Release Date**: May 2026 
 
 **Repository**: [https://github.com/maldfrey/whitepapers](https://github.com/maldfrey/whitepapers) 
 
