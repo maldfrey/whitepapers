@@ -109,13 +109,38 @@ Purpose 1 is the noble declaration etched into the founding charter or displayed
 
 Purpose 2, however, is never written down. It would look dreadfully untidy on the letterhead. Instead, it emerges organically the moment the institution materializes as a real-world entity with payrolls, budgets, careers, and internal politics. Purpose 2 is remarkably simple: survive, grow, insulate the insiders, expand the empire, and maintain the comfort and status of those who staff it.
 
-              \[THE PRIORITIZATION DRIFT\]  
-                  
-   \[SMALL SCALE\]                    \[LARGE SCALE\]  
-  Purpose 1 (Mission)              Purpose 1 (Mission)  
-         ▲                                │ (Subordinated)  
-         │ (Dominant)                     ▼  
-  Purpose 2 (Survival)             Purpose 2 (Survival) ◄── \[WINNER\]
+```mermaid
+graph LR
+    %% Style Definitions
+    classDef scale fill:#f5f5f5,stroke:#666,stroke-width:1px,color:#333;
+    classDef dominant fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
+    classDef winner fill:#ffebee,stroke:#c62828,stroke-width:2px,font-weight:bold,color:#b71c1c;
+    classDef muted fill:#fff,stroke:#bbb,stroke-dasharray: 3 3,color:#999;
+
+    subgraph SMALL ["SMALL SCALE (Direct Accountability)"]
+        S_M1["Purpose 1: Mission"]
+        S_M2["Purpose 2: Survival"]
+        S_M2 -->|Kept on Short Leash| S_M1
+    end
+
+    subgraph LARGE ["LARGE SCALE (Administrative Monopolies)"]
+        L_M1["Purpose 1: Mission"]
+        L_M2["Purpose 2: Survival"]
+        L_M1 -->|Subordinated & Consumed| L_M2
+    end
+
+    %% Apply Section Styling
+    class SMALL,LARGE scale;
+
+    %% Apply Node Styling
+    class S_M1 dominant;
+    class S_M2 muted;
+    class L_M1 muted;
+    class L_M2 winner;
+
+    %% Connect the Subgraphs
+    SMALL ---> LARGE
+```
 
 At a modest scale, under the whip of a strong leader and pinned down by direct accountability, Purpose 1 can usually keep its seat at the head of the table. But at civilizational scale, within the vast, carpeted corridors of our great public monopolies, Purpose 2 almost always wins by default.
 
