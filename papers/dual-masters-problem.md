@@ -575,12 +575,38 @@ The moment the Dual Masters architecture hardens across our major organs of stat
 
 Schools naturally begin to prioritize staff room harmony and the moral self-image of the administrators over the tedious, confrontational work of rigorous instruction. Regulators discover that it is infinitely safer to expand their own paper empires and insulate themselves from blame than to actually resolve a practical dilemma out in the wild. Governments learn to view the state not as a trust to be stewarded for posterity, but as a magnificent patronage machine to be run for short-term electoral comfort.
 
-             \[THE INTERNALIZED HARVESTING LOOP\]  
-                 
-  Institutional Inputs ──► Optimize for Acceptability ──► Status Rents Extracted  
-            ▲                                                   │  
-            │                                                   ▼  
-   Systemic Collapse     ◄─── Deficit Transferred   ◄─── Insiders Insulated  
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef inputs fill:#f5f5f5,stroke:#333,stroke-width:1px,color:#333;
+    classDef room fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
+    classDef harvest fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f,font-weight:bold;
+    classDef transfer fill:#ffebee,stroke:#c62828,stroke-width:1px,color:#b71c1c;
+    classDef collapse fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+
+    %% Nodes
+    IN["Institutional Inputs<br>(Tax Dollars / Inherited Capital)"]
+    ACC["Optimize for Acceptability<br>(Maximizing Peace Inside The Room)"]
+    RENT["Status Rents Extracted<br>(Credentialism & Admin Overhead)"]
+    INSUL["Insiders Insulated<br>(Protected from Real-World Feedback)"]
+    DEF["Deficit Transferred<br>(Costs Dumped onto Taxpayer & Public)"]
+    COLL["Systemic Collapse<br>(The Final Bill Comes Due)"]
+
+    %% Connections (The Extraction Circuit)
+    IN --> ACC
+    ACC --> RENT
+    RENT --> INSUL
+    INSUL --> DEF
+    DEF --> COLL
+    COLL --> IN
+
+    %% Style Assignments
+    class IN inputs;
+    class ACC room;
+    class RENT harvest;
+    class INSUL,DEF transfer;
+    class COLL collapse;
+```
                              To Taxpayer / Public
 
 The final yield of this drift is a civilization that becomes **brilliantly anti-fragile for the insiders and catastrophic for everyone else**. The individuals piloting the ship learn how to thrive magnificently amid the general dampness of the decay. Their budgets swell quite nicely. Their titles remain delightfully grand. Their moral self-importance remains entirely unblemished.
@@ -591,12 +617,37 @@ This particular configuration possesses the unfortunate quality of being entirel
 
 Yet, when the inevitable failures occur, the system reacts with its customary grace: it points to the collapse as the ultimate proof that the bureaucracy requires further growth, greater funding, and complete insulation from public meddling. The loop is entirely self-funding and perfectly locked.
 
-               \[THE COMPOUNDING MONOPOLY RATCHET\]  
-                   
-  Systemic Failure ──► Reframed as "Underfunding" ──► Expand Patronage Base  
-          ▲                                                   │  
-          │                                                   ▼  
-  Competence Drops ◄─── Incentivize Compliance    ◄─── Insulate from Criticism
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef crisis fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+    classDef spin fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
+    classDef expand fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f;
+    classDef protect fill:#f5f5f5,stroke:#333,stroke-width:1px,color:#333;
+
+    %% Nodes
+    FAIL["Systemic Failure<br>(Real-World Breakdowns)"]
+    SPIN["Reframed as 'Underfunding'<br>(The Narrative Pivot)"]
+    BASE["Expand Patronage Base<br>(New Jobs, Budgets, & Vendor Rents)"]
+    INSUL["Insulate from Criticism<br>(Regulatory Capture & Outgrouping)"]
+    COMP["Incentivize Compliance<br>(Rewarding Ideological Alignment)"]
+    DROP["Competence Drops<br>(Capable Operators Flushed Out)"]
+
+    %% Connections (The Ratchet Mechanism)
+    FAIL --> SPIN
+    SPIN --> BASE
+    BASE --> INSUL
+    INSUL --> COMP
+    COMP --> DROP
+    DROP --> FAIL
+
+    %% Style Assignments
+    class FAIL crisis;
+    class SPIN spin;
+    class BASE expand;
+    class INSUL,COMP protect;
+    class DROP crisis;
+```
 
 The true comedy at the heart of the tragedy is that the people operating the levers are rarely doing so with a cynical sneer. A great many of them are perfectly nice individuals who go to work in thoroughly polished shoes and sincerely believe they are performing the Lord’s work. To their minds, expanding the department, inventing a new diversity oversight committee, and protecting their internal coalitions *is* the sacred mission. They do not perceive the drift as a betrayal of their charter. They view it as an expression of pure virtue.
 
