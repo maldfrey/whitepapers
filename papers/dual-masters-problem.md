@@ -241,37 +241,14 @@ The remainder of the committee, unfamiliar with the framework and unwilling to c
 It is acceptability defeating suitability in a cleanroom environment.
 
 ```mermaid
-graph TD
-    %% Style Definitions
-    classDef header fill:#f5f5f5,stroke:#333,stroke-width:1px,font-weight:bold;
-    classDef quad1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
-    classDef quad2 fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
-    classDef quad3 fill:#f5f5f5,stroke:#999,stroke-width:1px,color:#666;
-    classDef quad4 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
-
-    %% Matrix Structure
-    TOP_LEFT["<b>QUADRANT II: THE BUREAUCRATIC SWEET SPOT</b><br><br>• High Acceptability / Low Suitability<br>• Maximizes daily harmony inside the room<br>• Systematically liquidates civilizational capital"]
-    TOP_RIGHT["<b>QUADRANT I: THE RARE IDEAL</b><br><br>• High Acceptability / High Suitability<br>• Requires exceptional leadership<br>• Aligns external reality with internal peace"]
-    
-    BOTTOM_LEFT["<b>QUADRANT III: THE IMMEDIATE FAILURE</b><br><br>• Low Acceptability / Low Suitability<br>• Nobody wins and everyone fights<br>• Rarely attempted by survival-driven agents"]
-    BOTTOM_RIGHT["<b>QUADRANT IV: THE CAREER HAZARD</b><br><br>• Low Acceptability / High Suitability<br>• Empirically correct but politically fatal<br>• Results in immediate internal row / ousting"]
-
-    %% Axis Labels to frame the grid
-    Y_AXIS{"HIGH ACCEPTABILITY<br>(Internal Peace)"}
-    X_AXIS{"HIGH SUITABILITY<br>(External Reality)"}
-
-    %% Layout Links to force grid alignment
-    Y_AXIS --- TOP_LEFT
-    TOP_LEFT === TOP_RIGHT
-    BOTTOM_LEFT === BOTTOM_RIGHT
-    X_AXIS --- BOTTOM_RIGHT
-
-    %% Style Assignments
-    class Y_AXIS,X_AXIS header;
-    class TOP_RIGHT quad1;
-    class TOP_LEFT quad2;
-    class BOTTOM_LEFT quad3;
-    class BOTTOM_RIGHT quad4;
+quadrantChart
+    title The Cognitive Comfort Matrix
+    x-axis Low Suitability (Reality) --> High Suitability (Reality)
+    y-axis Low Acceptability (The Room) --> High Acceptability (The Room)
+    quadrant-1 The Rare Ideal : Requires exceptional leadership to force alignment between external reality and internal peace.
+    quadrant-2 The Bureaucratic Sweet Spot : Maximizes daily harmony inside the room while systematically liquidating civilizational capital.
+    quadrant-3 The Immediate Failure : Nobody wins and everyone fights. Rarely attempted by survival-driven agents.
+    quadrant-4 The Career Hazard : Empirically correct but politically fatal. Results in immediate internal row and ousting.
 ```
 
 When scaled up to the tier of permanent administrative monopolies, this pattern hardens into concrete. Through a constant process of survivorship bias, the individuals who scale the greasy pole of the hierarchy are those who have spent decades refining their ability to manufacture acceptable outcomes.
