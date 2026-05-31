@@ -55,8 +55,7 @@ The human agents within these systems—frequently decent, industrious, and perf
 
 Naturally, they prioritize what their immediate colleagues will accept without a fuss. One must keep the peace in the staff room, after all.
 
-```
-
+```mermaid
 graph TD
     %% Base Styling
     classDef primary fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#111;
