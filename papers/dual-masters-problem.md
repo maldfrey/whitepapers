@@ -475,12 +475,34 @@ They grease the wheels by manufacturing new compliance directorates, expanding h
 
 The politician pays nothing out of his own pocket; he simply charges it to the public treasury. As long as the crisis can be managed long enough to secure a reassuring soundbite on the evening news, the intervention is deemed an unmitigated success. Meanwhile, the politician reaps the quiet loyalty of the newly expanded client class living off the system's rents. It is all quite wonderfully transactional.
 
-             \[THE POLITICIAN'S ARBITRAGE\]  
-                 
-  Public Crisis ──► Extract Public Funds ──► Pay Patronage to Insiders  
-         ▲                                            │  
-         │                                            ▼  
-  Re-election Soundbite ◄─── Institutional Calm ◄─────┘
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef crisis fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+    classDef action fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
+    classDef payoff fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f;
+    classDef soundbite fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
+
+    %% Nodes
+    CRISIS["Public Crisis<br>(Systemic Stress Event)"]
+    EXTRACT["Extract Public Funds<br>(Emergency/Deficit Financing)"]
+    PAY["Pay Patronage to Insiders<br>(Subsidizing Purpose 2 Coalitions)"]
+    CALM["Institutional Calm<br>(The Polite Siege Relieved)"]
+    BITE["Re-election Soundbite<br>(Narrative Triumph / 'Action Taken')"]
+
+    %% Connections (The Capital Capture Loop)
+    CRISIS --> EXTRACT
+    EXTRACT --> PAY
+    PAY --> CALM
+    CALM --> BITE
+    BITE --> CRISIS
+
+    %% Style Assignments
+    class CRISIS crisis;
+    class EXTRACT,CALM action;
+    class PAY payoff;
+    class BITE soundbite;
+```
 
 By this stage, the original, noble purpose of the institution barely registers as a minor concern. The daily operational reality shifts entirely from solving an external problem to managing internal coalitions and maintaining the expensive appearance of momentum.
 
@@ -512,12 +534,34 @@ If one treats the Dual Masters Problem as merely a localized headache for manage
 
 Vast institutions were originally granted their charters to perform remarkably practical, rather heavy lifting. They were expected to transmit functional competence to the young, preserve a predictable civic commons, resolve genuine external crises, and maintain the structural scaffolding required for general prosperity. It was a perfectly sensible blueprint, designed to ensure that the realm remained relatively orderly and that one’s investments didn't vanish overnight.
 
-               \[THE STATED FLOW OF REPRODUCTION\]  
-                   
-  Civilizational Capital ──► Rigorous Transmission ──► Expanded Capital  
-           ▲                                                   │  
-           │                                                   ▼  
-     Future Solvency     ◄─── High Competence Base ◄─── Reality-Tested Cohort
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef capital fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20,font-weight:bold;
+    classDef process fill:#e6f3ff,stroke:#0066cc,stroke-width:1px,color:#003366;
+    classDef quality fill:#fffde7,stroke:#fbc02d,stroke-width:1px,color:#57600f;
+
+    %% Nodes
+    CAP["Civilizational Capital<br>(Foundational Wealth & Knowledge)"]
+    TRANS["Rigorous Transmission<br>(Uncompromising Standard of Education)"]
+    EXP["Expanded Capital<br>(Compounding Assets & Capability)"]
+    COHORT["Reality-Tested Cohort<br>(Meritocratic Sorting / Execution)"]
+    BASE["High Competence Base<br>(Deep Pool of Capable Operators)"]
+    SOLV["Future Solvency<br>(Long-Term Civilizational Viability)"]
+
+    %% Connections (The Virtuous Cycle)
+    CAP --> TRANS
+    TRANS --> EXP
+    EXP --> COHORT
+    COHORT --> BASE
+    BASE --> SOLV
+    SOLV --> CAP
+
+    %% Style Assignments
+    class CAP,EXP capital;
+    class TRANS,SOLV process;
+    class COHORT,BASE quality;
+```
 
 When these structures instead decide to optimize for their own domestic tranquility, their expanded budgets, and the social status of their senior staff, the ripples are felt far beyond the office car park. A thriving society requires a few remarkably basic reference points to remain upright:
 
