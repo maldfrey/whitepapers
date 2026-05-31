@@ -662,7 +662,8 @@ To imagine that the Dual Masters Problem can be entirely eradicated from human a
 
 If one were so inclined to solve these problems—perhaps because the proletariat have begun gathering pitchforks near the East Gate and the noise is ruining one's afternoon—I suppose one might consider the following redress to force Purpose 2 back into its cage.
 
-### THE CONSTRAINED EQUILIBRIUM
+```text
+          [THE CONSTRAINED EQUILIBRIUM]  
 
 ┌────────────────────────────────────────────────────────┐
 │                    THE INSTITUTION                     │
@@ -670,9 +671,10 @@ If one were so inclined to solve these problems—perhaps because the proletaria
 │   [Purpose 1: The Stated Mission] ──► 🌟 DOMINANT      │
 │                 ▲                                      │
 │                 │                                      │
-│   [Purpose 2: Bureaucratic Growth]                     │
+│   [Purpose 2: Bureaucratic Growth]                      │
 │                 │                                      │
 └─────────────────┼──────────────────────────────────────┘
+                  │ 
                   │ (When Bureaucracy expands, it triggers...)
                   ▼
        🛑 [ REAL-WORLD MARKET CEILING ]
@@ -684,7 +686,7 @@ If one were so inclined to solve these problems—perhaps because the proletaria
                   │
                   ▼ (The Result:)
    The institution must cut the fat or completely die.
-
+```
 #### System Dynamics
 * **The Default Urge:** Inside the organization, the bureaucracy (Purpose 2) naturally wants to grow, protect itself, and swallow more of the budget. 
 * **The Trigger:** If the bureaucracy gets too big, the actual work (Purpose 1) suffers. The product or service slips.
