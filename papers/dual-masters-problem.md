@@ -63,13 +63,25 @@ graph TD
     classDef master2 fill:#fff0f0,stroke:#cc0000,stroke-width:2px,color:#660000;
     classDef outcome fill:#fff,stroke:#555,stroke-dasharray: 5 5,color:#333;
 
-    INST["THE INSTITUTION<br>(Real-World Entity)"] :::primary
+    INST["THE INSTITUTION<br>(Real-World Entity)"]
+    class INST primary;
 
-    INST --> M1["MASTER 1: STATED<br>External Mission<br>(Educate / Heal / Defend)"] :::master1
-    INST --> M2["MASTER 2: HIDDEN<br>Internal Solvency<br>(Tenure / Budgets / Status)"] :::master2
+    M1["MASTER 1: STATED<br>External Mission<br>(Educate / Heal / Defend)"]
+    class M1 master1;
+    
+    M2["MASTER 2: HIDDEN<br>Internal Solvency<br>(Tenure / Budgets / Status)"]
+    class M2 master2;
 
-    M1 --> O1["High Public Utility"] :::outcome
-    M2 --> O2["High Private Comfort"] :::outcome
+    O1["High Public Utility"]
+    class O1 outcome;
+    
+    O2["High Private Comfort"]
+    class O2 outcome;
+
+    INST --> M1
+    INST --> M2
+    M1 --> O1
+    M2 --> O2
 
     %% Visual Linkage
     M1 -.->|Subordinated At Scale| M2
