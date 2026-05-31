@@ -607,7 +607,6 @@ graph TD
     class INSUL,DEF transfer;
     class COLL collapse;
 ```
-                             To Taxpayer / Public
 
 The final yield of this drift is a civilization that becomes **brilliantly anti-fragile for the insiders and catastrophic for everyone else**. The individuals piloting the ship learn how to thrive magnificently amid the general dampness of the decay. Their budgets swell quite nicely. Their titles remain delightfully grand. Their moral self-importance remains entirely unblemished.
 
@@ -663,19 +662,37 @@ To imagine that the Dual Masters Problem can be entirely eradicated from human a
 
 If one were so inclined to solve these problems—perhaps because the proletariat have begun gathering pitchforks near the East Gate and the noise is ruining one's afternoon—I suppose one might consider the following redress to force Purpose 2 back into its cage.
 
-             \[THE CONSTRAINED EQUILIBRIUM\]  
-                 
-   ┌──────────────────────────────────────────────────┐  
-   │                  THE INSTITUTION                 │  
-   │                                                  │  
-   │   Purpose 1 (Stated Mission) ──► \[DOMINANT\]      │  
-   │           ▲                                      │  
-   │           │ (Heavy External Iron Brake)          │  
-   │   Purpose 2 (Self-Preservation) ───┐             │  
-   └────────────────────────────────────┼─────────────┘  
-                                        ▼  
-                           \[SHARP MARKET FRICTION\]  
-                           Customer Exit / Defunding
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef institution fill:#fdfdfd,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5,color:#111;
+    classDef purpose1 fill:#e6f3ff,stroke:#0066cc,stroke-width:2px,color:#003366,font-weight:bold;
+    classDef purpose2 fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
+    classDef friction fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+
+    %% The Institutional Boundary
+    subgraph INST ["THE INSTITUTION"]
+        P1["Purpose 1<br>(Stated Mission)"]
+        DOM["[DOMINANT]"]
+        P2["Purpose 2<br>(Self-Preservation)"]
+        
+        %% Internal Relationship
+        P1 === DOM
+        P2 -.->|Heavy External Iron Brake| P1
+    end
+
+    %% External Reality Forcing Function
+    EXIT["SHARP MARKET FRICTION<br>(Customer Exit / Defunding)"]
+
+    %% The Escape Valve Link (Escaping the box)
+    P2 ====>|Expansion Attempts Trigger| EXIT
+
+    %% Style Assignments
+    class INST institution;
+    class P1,DOM purpose1;
+    class P2 purpose2;
+    class EXIT friction;
+```
 
 It is a thoroughly impolite business, of course, but I suspect any meaningful remedy would have to rely on a few rather sharp, structural adjustments:
 
@@ -689,15 +706,11 @@ It is a thoroughly impolite business, of course, but I suspect any meaningful re
 
 * **Treat institutions as tools, not sacred national shrines.** No public agency or compliance board possesses an inherent right to perpetual growth. If an organization continuously optimizes for its own internal serenity over its stated charter, I suppose the logical response is to treat it like any other broken appliance. One simply downsizes it, overhauls it, or sends it straight to the scrapheap.
 
-                \[THE ACCOUNTABILITY MATRIX\]  
-                    
-  ─────────────────────────────────────────────────────────────────  
-  Intervention             Administrative Response   Real-World Payout  
-  ─────────────────────────────────────────────────────────────────  
-  Internal Review          "We need a larger budget" Continued Decay  
-  Blunt Metric (KPI)       Gamed Targets / Compliance Metric Met, Output Drops  
-  External Pressure (Exit) Terror / Realignment      Purpose 1 Restored  
-  ─────────────────────────────────────────────────────────────────
+| Intervention | Administrative Response | Real-World Payout |
+| :--- | :--- | :--- |
+| **Internal Review** | "We need a larger budget and more staff." | Continued Systemic Decay |
+| **Blunt Metric (KPI)** | Gamed Targets / Superficial Compliance | Metric Met, Actual Output Drops |
+| **External Pressure (Exit)** | **Terror / Structural Realignment** | **Purpose 1 Restored** *(Mission success)* |
 
 The objective here is not to completely banish the softer, more empathetic impulses of public life. Care and consideration for the fragile have their proper place in any decent society, if one is into that sort of thing. The goal is merely **dynamic complementarity**—the cold, structural reality that the velvet cushions of public kindness must always be kept firmly inside the heavy iron frame of accountability and long-term horizons.
 
