@@ -427,12 +427,34 @@ These magnificent structures combine immense scale with an altogether more poten
 
 Centralized monopolies face no such rude shocks. In their delightful world, institutional failure does not result in contraction, a painful restructuring, or a quiet trip to the bankruptcy courts. Instead, it serves as the ultimate justification for an increased budget and expanded regulatory authority. It is a marvelous arrangement where the reward for complete incompetence is a larger empire. One can only admire the sheer ingenuity of it.
 
-                \[THE CENTRALIZED FAILURE LOOP\]  
-                    
-  Institutional Failure ──► Declare "Underfunding" ──► Expand Budget & Staff  
-            ▲                                                   │  
-            │                                                   ▼  
-     Output Contracts ◄─── Purpose 2 Compounds   ◄─── Insulated from Exit
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef failure fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+    classDef step fill:#fff,stroke:#333,stroke-width:1px,color:#333;
+    classDef insulation fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f;
+
+    %% Nodes
+    FAIL["Institutional Failure<br>(Real-World Competence Drops)"]
+    DECL["Declare Underfunding<br>(Narrative Capture)"]
+    BUDG["Expand Budget & Staff<br>(Purpose 2 Rewarded)"]
+    INSUL["Insulated from Exit<br>(Monopoly / Captured Market)"]
+    COMP["Purpose 2 Compounds<br>(Internal Survival > External Mission)"]
+    CONT["Output Contracts<br>(Efficiency Plummets)"]
+
+    %% Connections (The Circular Trap)
+    FAIL --> DECL
+    DECL --> BUDG
+    BUDG --> INSUL
+    INSUL --> COMP
+    COMP --> CONT
+    CONT --> FAIL
+
+    %% Style Assignments
+    class FAIL failure;
+    class INSUL insulation;
+    class DECL,BUDG,COMP,CONT step;
+```
 
 This structural insulation breeds a highly specific, beautifully detached administrative blindness. The individuals piloting these systems are entirely insulated from the vulgar reality of resource generation. They do not need to create wealth; they merely need to draft a convincing memorandum to the Treasury. It must be quite a serene way to live, really.
 
@@ -440,16 +462,12 @@ When a multi-billion-pound injection fails to move the needle on public literacy
 
 They do not personally feel the pinch of rising income taxes, the drag of public debt, or the long-term economic decay caused by starving the productive sectors of the economy. Those costs are borne entirely by the anonymous taxpayer. To the administrator, capital is an infinite, magical resource that appears on the balance sheet like manna from heaven. It is a charmingly naive view of thermodynamics.
 
-             \[THE PRIVATE VS. CENTRALIZED MATRIX\]  
-                 
-   ─────────────────────────────────────────────────────────────────  
-   Metric              Private Enterprise      Centralized Monolith  
-   ─────────────────────────────────────────────────────────────────  
-   Primary Feedback    Profit & Loss / Exit    Budget Growth / Voice  
-   Failure Consequence Bankruptcy / Closure    Increased Funding  
-   Cost Burden         Internal Shareholders   External Taxpayer  
-   Limit on Purpose 2  Hard Market Boundary    None (Self-Compounding)  
-   ─────────────────────────────────────────────────────────────────
+| Metric | Private Enterprise | Centralized Monolith |
+| :--- | :--- | :--- |
+| **Primary Feedback** | Profit & Loss / Customer Exit | Budget Growth / Bureaucratic Voice |
+| **Failure Consequence** | Bankruptcy / Institutional Closure | Increased Funding / Scale Expansion |
+| **Cost Burden** | Internal Shareholders & Owners | External Taxpayer & General Public |
+| **Limit on Purpose 2** | Hard Market Boundary *(Survival demands utility)* | None *(Self-Compounding and unchecked)* |
 
 Because centralized systems lack any external limiter, the patronage-coercion machine is free to compound year after year. When ministers or senior bureaucrats realize they cannot command the real-world results they promised in their manifestos, they fall back on the only tool that guarantees immediate domestic tranquility: patronage.
 
