@@ -662,37 +662,35 @@ To imagine that the Dual Masters Problem can be entirely eradicated from human a
 
 If one were so inclined to solve these problems—perhaps because the proletariat have begun gathering pitchforks near the East Gate and the noise is ruining one's afternoon—I suppose one might consider the following redress to force Purpose 2 back into its cage.
 
-```mermaid
-graph TD
-    %% Style Definitions
-    classDef institution fill:#fdfdfd,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5,color:#111;
-    classDef purpose1 fill:#e6f3ff,stroke:#0066cc,stroke-width:2px,color:#003366,font-weight:bold;
-    classDef purpose2 fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
-    classDef friction fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+### THE CONSTRAINED EQUILIBRIUM
 
-    %% The Institutional Boundary
-    subgraph INST ["THE INSTITUTION"]
-        P1["Purpose 1<br>(Stated Mission)"]
-        DOM["[DOMINANT]"]
-        P2["Purpose 2<br>(Self-Preservation)"]
-        
-        %% Internal Relationship
-        P1 === DOM
-        P2 -.->|Heavy External Iron Brake| P1
-    end
+┌────────────────────────────────────────────────────────┐
+│                    THE INSTITUTION                     │
+│                                                        │
+│   [Purpose 1: The Stated Mission] ──► 🌟 DOMINANT      │
+│                 ▲                                      │
+│                 │                                      │
+│   [Purpose 2: Bureaucratic Growth]                     │
+│                 │                                      │
+└─────────────────┼──────────────────────────────────────┘
+                  │ (When Bureaucracy expands, it triggers...)
+                  ▼
+       🛑 [ REAL-WORLD MARKET CEILING ]
+          Customers can freely walk away.
+                  │
+                  ▼ (Which immediately forces...)
+       💸 [ SHARP FINANCIAL PAIN ]
+          Revenue drops and bankruptcy threatens survival.
+                  │
+                  ▼ (The Result:)
+   The institution must cut the fat or completely die.
 
-    %% External Reality Forcing Function
-    EXIT["SHARP MARKET FRICTION<br>(Customer Exit / Defunding)"]
-
-    %% The Escape Valve Link (Escaping the box)
-    P2 ====>|Expansion Attempts Trigger| EXIT
-
-    %% Style Assignments
-    class INST institution;
-    class P1,DOM purpose1;
-    class P2 purpose2;
-    class EXIT friction;
-```
+#### System Dynamics
+* **The Default Urge:** Inside the organization, the bureaucracy (Purpose 2) naturally wants to grow, protect itself, and swallow more of the budget. 
+* **The Trigger:** If the bureaucracy gets too big, the actual work (Purpose 1) suffers. The product or service slips.
+* **The Hard Stop:** In a free market, the organization hits a hard Market Ceiling—it cannot force anyone to buy its product. 
+* **The Deflection:** The moment output drops, customers immediately walk away. This inflicts sudden, severe Financial Pain straight onto the organization's bottom line.
+* **The Correction:** Because the organization will literally go bankrupt and die if it ignores this pain, leadership is mechanically forced to slash the bureaucratic bloat and refocus entirely on the Stated Mission.
 
 It is a thoroughly impolite business, of course, but I suspect any meaningful remedy would have to rely on a few rather sharp, structural adjustments:
 
