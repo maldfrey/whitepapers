@@ -243,12 +243,12 @@ It is acceptability defeating suitability in a cleanroom environment.
 ```mermaid
 quadrantChart
     title The Cognitive Comfort Matrix
-    x-axis Low Suitability (Reality) --> High Suitability (Reality)
-    y-axis Low Acceptability (The Room) --> High Acceptability (The Room)
-    quadrant-1 The Rare Ideal : Requires exceptional leadership to force alignment between external reality and internal peace.
-    quadrant-2 The Bureaucratic Sweet Spot : Maximizes daily harmony inside the room while systematically liquidating civilizational capital.
-    quadrant-3 The Immediate Failure : Nobody wins and everyone fights. Rarely attempted by survival-driven agents.
-    quadrant-4 The Career Hazard : Empirically correct but politically fatal. Results in immediate internal row and ousting.
+    x-axis Low Suitability --> High Suitability
+    y-axis Low Acceptability --> High Acceptability
+    quadrant-1 The Rare Ideal
+    quadrant-2 The Bureaucratic Sweet Spot
+    quadrant-3 The Immediate Failure
+    quadrant-4 The Career Hazard
 ```
 
 When scaled up to the tier of permanent administrative monopolies, this pattern hardens into concrete. Through a constant process of survivorship bias, the individuals who scale the greasy pole of the hierarchy are those who have spent decades refining their ability to manufacture acceptable outcomes.
