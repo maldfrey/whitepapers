@@ -332,6 +332,9 @@ graph TD
         G4_STATED --> G4_ACTUAL
     end
 
+    %% Force Vertical Chronological Order
+    GEN1 ==>|Three Generations of Administrative Drift| GEN4
+
     %% Style Assignments
     class G1_TITLE,G4_TITLE genTitle;
     class G1_STATED,G4_STATED stated;
