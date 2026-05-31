@@ -202,21 +202,33 @@ To understand this capitulation, we must separate the two terms with a clinical 
 
 * **Acceptability** is the option the group finds easiest to agree upon in the drawing-room. It is comfortable, entirely familiar, and beautifully aligned with the ego protection of the dominant internal coalition. It ensures that no powerful member of the hierarchy is made to feel incompetent, sidelined, or intellectually exposed.
 
-                  \[THE STRATEGIC FORK\]  
-                      
-                    ┌──────────────────┐  
-                    │ DECISION POINT   │  
-                    └────────┬─────────┘  
-                             │  
-                ┌────────────┴────────────┐  
-                ▼                         ▼  
-         \[SUITABILITY\]             \[ACCEPTABILITY\]  
-         Real-World Solution       Internal Coalition Fit  
-         (High Friction)           (Low Friction)  
-                │                         │  
-                ▼                         ▼  
-         Empirical Success         Institutional Calm  
-         (Career Risk)             (Career Safety)
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef fork fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef suitability fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
+    classDef acceptability fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+    classDef outcome fill:#fff,stroke:#555,stroke-dasharray: 3 3;
+
+    %% Nodes
+    DECISION["DECISION POINT<br>(Genuine Uncertainty)"]
+    SUIT["SUITABILITY<br>Real-World Solution<br>(High Friction / Specialized Knowledge)"]
+    ACCEPT["ACCEPTABILITY<br>Internal Coalition Fit<br>(Low Friction / Ego Protection)"]
+    S_OUT["Empirical Success<br>(Career Risk / Exposure)"]
+    A_OUT["Institutional Calm<br>(Career Safety / Shared Disaster)"]
+
+    %% Connections
+    DECISION --> SUIT
+    DECISION --> ACCEPT
+    SUIT --> S_OUT
+    ACCEPT --> A_OUT
+
+    %% Style Assignments
+    class DECISION fork;
+    class SUIT suitability;
+    class ACCEPT acceptability;
+    class S_OUT,A_OUT outcome;
+```
 
 Because external reality is plagued by genuine uncertainty, the suitable choice is rarely self-evident. It often requires a high degree of technical specialized knowledge that the entire group does not share, or an uncomfortable reliance on data that makes the senior members feel slightly out of their depth.
 
@@ -228,22 +240,39 @@ The remainder of the committee, unfamiliar with the framework and unwilling to c
 
 It is acceptability defeating suitability in a cleanroom environment.
 
-             \[THE COGNITIVE COMFORT MATRIX\]  
-                 
-                 High Suitability          Low Suitability  
-             ┌─────────────────────────┬─────────────────────────┐  
-             │                         │                         │  
-  High       │   \[THE RARE IDEAL\]      │   \[THE BUREAUCRATIC     │  
-  Accept-    │  Requires exceptional   │        SWEET SPOT\]      │  
-  ability    │  leadership to align.   │   Maximizes harmony;    │  
-             │                         │   liquidates capital.   │  
-             ├─────────────────────────┼─────────────────────────┤  
-             │                         │                         │  
-  Low        │   \[THE CAREER HAZARD\]   │   \[THE IMMEDIATE        │  
-  Accept-    │  Empirically correct;   │         FAILURE\]        │  
-  ability    │  politically fatal.     │   No one wins;          │  
-             │                         │   rarely attempted.     │  
-             └─────────────────────────┴─────────────────────────┘
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef header fill:#f5f5f5,stroke:#333,stroke-width:1px,font-weight:bold;
+    classDef quad1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
+    classDef quad2 fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+    classDef quad3 fill:#f5f5f5,stroke:#999,stroke-width:1px,color:#666;
+    classDef quad4 fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+
+    %% Matrix Structure
+    TOP_LEFT["<b>QUADRANT II: THE BUREAUCRATIC SWEET SPOT</b><br><br>• High Acceptability / Low Suitability<br>• Maximizes daily harmony inside the room<br>• Systematically liquidates civilizational capital"]
+    TOP_RIGHT["<b>QUADRANT I: THE RARE IDEAL</b><br><br>• High Acceptability / High Suitability<br>• Requires exceptional leadership<br>• Aligns external reality with internal peace"]
+    
+    BOTTOM_LEFT["<b>QUADRANT III: THE IMMEDIATE FAILURE</b><br><br>• Low Acceptability / Low Suitability<br>• Nobody wins and everyone fights<br>• Rarely attempted by survival-driven agents"]
+    BOTTOM_RIGHT["<b>QUADRANT IV: THE CAREER HAZARD</b><br><br>• Low Acceptability / High Suitability<br>• Empirically correct but politically fatal<br>• Results in immediate internal row / ousting"]
+
+    %% Axis Labels to frame the grid
+    Y_AXIS{"HIGH ACCEPTABILITY<br>(Internal Peace)"}
+    X_AXIS{"HIGH SUITABILITY<br>(External Reality)"}
+
+    %% Layout Links to force grid alignment
+    Y_AXIS --- TOP_LEFT
+    TOP_LEFT === TOP_RIGHT
+    BOTTOM_LEFT === BOTTOM_RIGHT
+    X_AXIS --- BOTTOM_RIGHT
+
+    %% Style Assignments
+    class Y_AXIS,X_AXIS header;
+    class TOP_RIGHT quad1;
+    class TOP_LEFT quad2;
+    class BOTTOM_LEFT quad3;
+    class BOTTOM_RIGHT quad4;
+```
 
 When scaled up to the tier of permanent administrative monopolies, this pattern hardens into concrete. Through a constant process of survivorship bias, the individuals who scale the greasy pole of the hierarchy are those who have spent decades refining their ability to manufacture acceptable outcomes.
 
