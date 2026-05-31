@@ -1,7 +1,7 @@
 **The Dual Masters Problem**  
 Why Institutions Inevitably Betray Their Stated Purpose
 
-**Version** 1.0  
+**Version** 1.1  
 **Author**: Maldfrey  
 **Release Date**: May 2026 
 
