@@ -154,20 +154,31 @@ This internal tax is settled in two rather expensive currencies:
 
 Neither currency comes cheap. Patronage structuralizes mediocrity and bloats the balance sheet, while coercion efficiently liquidates morale and kills off any spontaneous innovation. Most mature systems run an exceptionally expensive, highly unstable cocktail of both. It makes the tea in the canteen taste quite bitter, to be frank.
 
-          \[THE LEADERSHIP MOBILIZATION TAX\]  
-              
-                    ┌─────────────────┐  
-                    │ LEADERSHIP CORE │  
-                    └────────┬────────┘  
-                             │  
-                ┌────────────┴────────────┐  
-                ▼                         ▼  
-          \[CURRENCY A\]              \[CURRENCY B\]  
-           Patronage                 Coercion  
-         (Rents & Slack)          (Shame & Rules)  
-                │                         │  
-                ▼                         ▼  
-         Systemic Bloat           Morale Liquidation
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef core fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef currency fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f;
+    classDef cost fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+
+    %% Nodes
+    CORE["LEADERSHIP CORE<br>(Faced with Coordination Wall)"]
+    PAT["PATRONAGE<br>(Rents, Expanded Budgets, Protected Slack)"]
+    COER["COERCION<br>(Shame, Social Pressure, Mandatory Retraining)"]
+    BLOAT["Systemic Bloat<br>(Structural Mediocrity)"]
+    LIQ["Morale Liquidation<br>(Kills Spontaneous Innovation)"]
+
+    %% Connections
+    CORE -->|Currency A| PAT
+    CORE -->|Currency B| COER
+    PAT --> BLOAT
+    COER --> LIQ
+
+    %% Style Assignments
+    class CORE core;
+    class PAT,COER currency;
+    class BLOAT,LIQ cost;
+```
 
 The primary mechanism by which Purpose 2 achieves total dominance is the quiet, elegant substitution of **acceptability** for **suitability**. Over time, the apparatus learns to optimize exclusively for what its internal coalitions will tolerate without throwing a tantrum, rather than what external reality actually demands.
 
