@@ -14,8 +14,9 @@ These papers form a connected body of work examining why complex societies repea
 5. **The Violence of Compassion** – How it turns aggressive  
 6. **Anti-Natalism: The Poisoned Well of a Mode B Monoculture**
 7. **The Migration of Violence** - How it sacrifices main street  
-8. **Reform or Rupture** – Big picture implications
-9. **Words as Weapons** - How destroying is easier than creating
+8. **Words as Weapons** - How destroying is easier than creating
+9.  **The Dual Masters Problem** – How stated purpose is abandoned
+10.  **Law and Miseducation** - Example of the pattern
 
 ### Papers
 
