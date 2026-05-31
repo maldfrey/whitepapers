@@ -271,12 +271,30 @@ Mandating rigid quotas or key performance indicators (KPIs) invariably fails to 
 
 As the metrics fail, employees learn to optimize exclusively for what is measured rather than what actually matters. This strengthens Purpose 2’s grip on the firmware. To unlock any real effort beyond bare-minimum compliance, leadership must quietly pay that hidden levy we noted earlier: the **Leadership Mobilization Cost**.
 
-              \[THE METRIC GAUGING TRAP\]  
-                  
-  Impose Blunt Metric ──► Employees Game the Target ──► Real Output Drops  
-           ▲                                                  │  
-           │                                                  ▼  
-     Metric Met  ◄─── Bare Minimum Compliance ◄─── Purpose 2 Strengthens
+```mermaid
+graph LR
+    %% Style Definitions
+    classDef step fill:#fff,stroke:#333,stroke-width:1px,color:#333;
+    classDef trap fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+
+    %% Nodes
+    A["Impose Blunt Metric<br>(KPIs or Quotas)"]
+    B["Insiders Game<br>the Target"]
+    C["Real Output Drops<br>(Subtle Value Killed)"]
+    D["Purpose 2 Strengthens<br>(Firmware Lock)"]
+    E["Bare Minimum Compliance<br>(Targets Met)"]
+
+    %% Connections (The Closed Loop)
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E -->|Justifies Metric Validation| A
+
+    %% Style Assignments
+    class A,B,C,E step;
+    class D trap;
+```
 
 As we established, this tax is settled in two rather unappealing currencies: **Patronage** (the carrot of promotions, expanded budgets, and protected slack) and **Coercion** (the stick of social pressure, career freeze-outs, and mandatory administrative retraining).
 
@@ -288,14 +306,38 @@ Imagine a once-great rural estate that annually hosts a grand celebration involv
 
 Over generations, however, the festival’s purpose quietly shifted. It became the primary mechanism by which each successive lord demonstrated his generosity and secured his social status among his peers. The event grew predictably elaborate. More locals were placed on the payroll. More absurd traditions were invented. The cost swelled until it consumed a non-trivial portion of the estate’s annual revenue. It was a marvelous time for everyone involved, paid for entirely by the estate's capital reserves.
 
-          \[EVOLUTION OF THE FESTIVAL BUDGET\]  
-              
-  \[GENERATION 1\]                          \[GENERATION 4\]  
-  Stated Purpose: Honor the Stag          Stated Purpose: Honor the Stag  
-  Actual Budget:  Game & Bread            Actual Budget:  Empire Building  
-                                                          Admin Salaries  
-                                                          Status Harvesting  
-                                                          Vendor Rents
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef genTitle fill:#f5f5f5,stroke:#333,stroke-width:2px,font-weight:bold,color:#111;
+    classDef stated fill:#e6f3ff,stroke:#0066cc,stroke-width:1px,color:#003366;
+    classDef actualG1 fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px,color:#1b5e20;
+    classDef actualG4 fill:#fff0f0,stroke:#cc0000,stroke-width:2px,color:#660000;
+
+    subgraph GEN1 ["GENERATION 1 (The Foundational State)"]
+        G1_TITLE["[GENERATION 1]"]
+        G1_STATED["Stated Purpose:<br>Honor the Stag"]
+        G1_ACTUAL["Actual Budget Allocation:<br>• Game & Bread"]
+        
+        G1_TITLE --- G1_STATED
+        G1_STATED --> G1_ACTUAL
+    end
+
+    subgraph GEN4 ["GENERATION 4 (The Administrative State)"]
+        G4_TITLE["[GENERATION 4]"]
+        G4_STATED["Stated Purpose:<br>Honor the Stag"]
+        G4_ACTUAL["Actual Budget Allocation:<br>• Empire Building<br>• Admin Salaries<br>• Status Harvesting<br>• Vendor Rents"]
+        
+        G4_TITLE --- G4_STATED
+        G4_STATED --> G4_ACTUAL
+    end
+
+    %% Style Assignments
+    class G1_TITLE,G4_TITLE genTitle;
+    class G1_STATED,G4_STATED stated;
+    class G1_ACTUAL actualG1;
+    class G4_ACTUAL actualG4;
+```
 
 When a new, somewhat spreadsheet-minded lord reviews the accounts and correctly concludes that the festival must be drastically scaled back, he faces a difficult choice.
 
@@ -303,19 +345,58 @@ If he simply executes the cuts on line one without preparation, the systemic bac
 
 Resistance appears not as an open rebellion, but as a thousand tiny, bureaucratic frictions, all pointing in the exact same direction. It is a very polite, very effective siege.
 
-             \[THE STAG FESTIVAL BACKLASH\]  
-                 
-                 ┌───────────────────────┐  
-                 │ LORD CUTS THE BUDGET  │  
-                 └───────────┬───────────┘  
-                             │  
-         ┌───────────────────┼───────────────────┐  
-         ▼                   ▼                   ▼  
-  Supply Failures     Timber Declines     Social Ostracism  
-         │                   │                   │  
-         └───────────────────┼───────────────────┘  
-                             ▼  
-                 \[ADMINISTRATIVE PARALYSIS\]
+```mermaid
+graph TD
+    %% Style Definitions
+    classDef trigger fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+    classDef backlash fill:#fff0f0,stroke:#cc0000,stroke-width:1px,color:#660000;
+    classDef choice fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#111;
+    classDef payment fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f;
+    classDef outcome fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+
+    %% Nodes
+    START["Lord Cuts Festival Budget<br>(Attempts Efficiency Drive)"]
+    
+    B1["Supply Failures<br>(Logistical Frictions)"]
+    B2["Timber Declines<br>(Unrelated Productivity Drops)"]
+    B3["Social Ostracism<br>(Allies Back Away)"]
+    
+    LOCK["ADMINISTRATIVE PARALYSIS<br>(The Polite Siege)"]
+    
+    COMP["Realpolitik Compromise<br>(Paying the Mobilization Tax)"]
+    
+    COER["To Weak Factions:<br>Coercion<br>(Mild Threats of Deeper Cuts)"]
+    PAT["To Powerful Coalitions:<br>Patronage<br>(Permanent Land Rights & Rents)"]
+    
+    SYSTEM["System Downsized on Paper<br>(But Internal Power Re-reinforced)"]
+    STAG["The Stag Disappears Permanently<br>(Permanent Entitlement Loop Subsidized)"]
+
+    %% Connections
+    START --> B1
+    START --> B2
+    START --> B3
+    
+    B1 --> LOCK
+    B2 --> LOCK
+    B3 --> LOCK
+    
+    LOCK --> COMP
+    
+    COMP --> COER
+    COMP --> PAT
+    
+    COER --> SYSTEM
+    PAT --> SYSTEM
+    
+    SYSTEM --> STAG
+
+    %% Style Assignments
+    class START trigger;
+    class B1,B2,B3 backlash;
+    class LOCK,STAG outcome;
+    class COMP,SYSTEM choice;
+    class COER,PAT payment;
+```
 
 To avoid complete paralysis, the lord attempts a less desirable, thoroughly political middle ground. He deploys his two currencies strategically.
 
