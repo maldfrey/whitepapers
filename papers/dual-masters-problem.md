@@ -685,14 +685,7 @@ If one were so inclined to solve these problems—perhaps because the proletaria
           Revenue drops and bankruptcy threatens survival.
                   │
                   ▼ (The Result:)
-   The institution must cut the fat or completely die.
-
-#### System Dynamics
-* **The Default Urge:** Inside the organization, the bureaucracy (Purpose 2) naturally wants to grow, protect itself, and swallow more of the budget. 
-* **The Trigger:** If the bureaucracy gets too big, the actual work (Purpose 1) suffers. The product or service slips.
-* **The Hard Stop:** In a free market, the organization hits a hard Market Ceiling—it cannot force anyone to buy its product. 
-* **The Deflection:** The moment output drops, customers immediately walk away. This inflicts sudden, severe Financial Pain straight onto the organization's bottom line.
-* **The Correction:** Because the organization will literally go bankrupt and die if it ignores this pain, leadership is mechanically forced to slash the bureaucratic bloat and refocus entirely on the Stated Mission.
+   The institution must refocus on the purpose or else die.
 ```
 
 It is a thoroughly impolite business, of course, but I suspect any meaningful remedy would have to rely on a few rather sharp, structural adjustments:
