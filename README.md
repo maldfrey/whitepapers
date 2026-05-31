@@ -12,7 +12,7 @@ These papers form a connected body of work examining why complex societies repea
 3. **Conceit-Anchored Nihilism** – Psychological layer  
 4. **Manufactured Fragility** – Cultural mechanism  
 5. **The Violence of Compassion** – How it turns aggressive  
-6. **Anti-Natalism: The Poisoned Well of a Mode B Monoculture**
+6. **Anti-Natalism** - Logical endpoint of unbounded Mode B
 7. **The Migration of Violence** - How it sacrifices main street  
 8. **Words as Weapons** - How destroying is easier than creating
 9.  **The Dual Masters Problem** – How stated purpose is abandoned
