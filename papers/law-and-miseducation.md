@@ -1,7 +1,7 @@
 **Law and Miseducation**  
 The Systematic Capture and Infantilization of the Next Generation
 
-**Version** 1.0  
+**Version** 1.1  
 **Author**: Maldfrey  
 **Release Date**: May 2026 
 
