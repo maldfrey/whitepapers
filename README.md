@@ -44,13 +44,13 @@ These papers form a connected body of work examining why complex societies repea
 - **[The Migration of Violence](papers/migration-of-violence.md)**  
   How Mode B Monoculture Redistributes Disorder onto Main Street
 
-- **[Words as Weapons](papers/words-as-weapons.md)**
+- **[Words as Weapons](papers/words-as-weapons.md)**  
   How Setup Cost Asymmetry Allows Mode B to Destroy Civilization Faster Than Mode A Can Defend It
 
-- **[Law and Miseducation](papers/law-and-miseducation.md)**
+- **[Law and Miseducation](papers/law-and-miseducation.md)**  
   How compulsory education and safeguarding laws turn schools into engines of fragility and epistemic closure.
 
-- **[Dual Masters Problem](papers/dual-masters-problem.md)**
+- **[Dual Masters Problem](papers/dual-masters-problem.md)**  
   Why institutions inevitably betray their stated purpose.
 
 
