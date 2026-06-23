@@ -126,7 +126,9 @@ This is the most primal and theatrical form. It manifests as sudden, explosive e
 
 **The Invective Script (Social Level)**
 
-This is the moral attack script. When someone presents an uncomfortable but evidence-based observation, the response is not debate or examination of the facts. It is an immediate, harsh moral condemnation aimed at the speaker’s character: "That's racist garbage.”
+This is the moral attack script. When someone presents an uncomfortable but evidence-based observation, the response is not debate or examination of the facts. It is an immediate, harsh moral condemnation aimed at the speaker’s character: 
+
+"That's racist garbage.”
 
 “You’re a bigot / fascist / misogynist.”
 
@@ -223,6 +225,8 @@ A project of this nature inevitably invites three lines of critique, each of whi
 **Tactical Execution:** The concept of Sovereign Refugia is presented here as a directional vector, not a detailed operational blueprint. For the majority, the path is quiet stewardship: protect something worth protecting, transmit it through daily life, and remember that the smallest functional example of a sovereign refugium is known as a family. For the deviations who feel the pull toward higher exposure and macro-level engagement, the structural exit paths remain open to be built, tested, and scaled as you are so inclined.
 
 The goal throughout remains purely mechanical: to describe the machine we are inside, to explain why it cannot self-correct, and to point toward the exit.
+
+
 
 **A Note on Sentiment**
 
