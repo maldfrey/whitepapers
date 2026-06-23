@@ -172,11 +172,21 @@ Societies start eating their future to pay for present psychological and status 
 
 **Manufactured Fragility**
 
-As standards are lowered in the name of compassion or equity, systems and populations become increasingly brittle: [Manufactured Fragility](https://github.com/maldfrey/whitepapers/blob/main/papers/manufactured-fragility.md). Redundancy is removed. Competence hierarchies are flattened. What once required genuine robustness now runs on hope, subsidies, and moral signaling. The society grows hypersensitive to shocks it used to absorb with relative ease.
+As standards are lowered in the name of compassion or equity, systems and populations become increasingly brittle. This is [Manufactured Fragility](https://github.com/maldfrey/whitepapers/blob/main/papers/manufactured-fragility.md). 
+
+Redundancy is quietly stripped away. Competence hierarchies are flattened or replaced with equity mandates. Selection processes that once prioritized ability now prioritize optics, identity, or emotional comfort. What used to require genuine robustness — institutions, infrastructure, supply chains, education systems, even families — now runs on hope, subsidies, moral signaling, and increasingly fragile social consensus.
+
+The result is a society that grows hypersensitive to shocks it once absorbed with relative ease. Minor disruptions that would have been manageable in a higher-competence environment now trigger disproportionate crises. Buffers disappear. Slack is eliminated. The system loses its ability to fail gracefully.
+
+Manufactured Fragility is especially dangerous because it is self-reinforcing. Every new failure is interpreted as evidence that even more Mode B interventions are needed — more leniency, more inclusion, more lowering of standards — which further erodes robustness. What begins as well-intentioned compassion gradually produces a civilization that is simultaneously more expensive to maintain and more vulnerable to collapse.
 
 **Migration of Violence**
 
-Disorder and negative outcomes are rarely eliminated — they are simply moved. Crime, family breakdown, social dysfunction, and institutional failure are externalized onto more functional populations, communities, and future generations: [Migration of Violence](https://github.com/maldfrey/whitepapers/blob/main/papers/migration-of-violence.md). The people who champion the policies almost never bear the full cost. Those costs land on those still attempting to maintain order and long-term stewardship.
+Disorder and negative outcomes are rarely eliminated in mature Mode B systems — they are simply moved. Crime, family breakdown, educational failure, social dysfunction, and institutional decay tend to be externalized onto more functional populations, communities, and future generations. This is what I call: [Migration of Violence](https://github.com/maldfrey/whitepapers/blob/main/papers/migration-of-violence.md). 
+
+The pattern is consistent: the people who champion leniency, boundary dissolution, and reduced enforcement almost never bear the full cost of the resulting chaos. Those costs land disproportionately on individuals, families, and institutions that continue trying to maintain order, standards, and long-term stewardship. The champions remain insulated — geographically, socially, or economically — while the consequences flow outward.
+
+This creates a quiet but relentless transfer of dysfunction from less functional areas to more functional ones. What begins as localized policy decisions gradually drains the social capital of the broader society. The productive subsidize the consequences of disorder, often while being morally condemned for noticing the pattern.
 
 **Coordination Collapse**
 
