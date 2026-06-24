@@ -154,7 +154,9 @@ All three scripts — Raw Dominance, Invective, and Sophistry — are expression
 
 ## The Terminal Phase
 
-Once the Mode B Ratchet and Dual Masters inversion mature, institutions reach a decisive energetic threshold. They must expend nearly all available internal energy maintaining Acceptability — paying the rising Leadership Mobilization Cost through patronage and coercion. Very little energy remains for external suitability or reality-testing.At this point, the institution can no longer sustain itself from its own operations. It begins extracting resources from the surrounding environment and future generations to balance its internal ledger. The terminal pathologies are not separate failures. They are the mechanical consequences of this energetic imbalance:
+Once the Mode B Ratchet and Dual Masters inversion mature, institutions reach a decisive energetic threshold. They must expend nearly all available internal energy maintaining Acceptability — paying the rising Leadership Mobilization Cost through patronage and coercion. Very little energy remains for external suitability or reality-testing.
+
+At this point, the institution can no longer sustain itself from its own operations. It begins extracting resources from the surrounding environment and future generations to balance its internal ledger. The terminal pathologies are not separate failures. They are the mechanical consequences of this energetic imbalance:
 
 * The system liquidates accumulated capital to fund today’s psychological and coalition costs.
 * It sacrifices robustness to preserve internal peace.
