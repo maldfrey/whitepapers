@@ -154,7 +154,13 @@ All three scripts — Raw Dominance, Invective, and Sophistry — are expression
 
 ## The Terminal Phase
 
-When the Mode B Ratchet, the Dual Masters inversion, and the psychological locks operate together for decades, the system enters its terminal phase. What began as subtle distortions becomes open, visible, and self-reinforcing. The damage is no longer hidden in lag times. Four destructive patterns emerge, each feeding the others in a vicious cycle.
+Once the Mode B Ratchet and Dual Masters inversion mature, institutions reach a decisive energetic threshold. They must expend nearly all available internal energy maintaining Acceptability — paying the rising Leadership Mobilization Cost through patronage and coercion. Very little energy remains for external suitability or reality-testing.At this point, the institution can no longer sustain itself from its own operations. It begins extracting resources from the surrounding environment and future generations to balance its internal ledger. The terminal pathologies are not separate failures. They are the mechanical consequences of this energetic imbalance:
+
+* The system liquidates accumulated capital to fund today’s psychological and coalition costs.
+* It sacrifices robustness to preserve internal peace.
+* It displaces disorder outward rather than confronting it.
+
+What appears as four distinct problems is actually one underlying process: a Mode B-dominated system consuming its host to postpone internal collapse.
 
 THE CIVILIZATIONAL DECAY CYCLE
 
