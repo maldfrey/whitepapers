@@ -24,8 +24,6 @@ The merger of these two insights is uncomfortable. Healthy complementarity at th
 This is not the end of the inquiry. It is the necessary clearing of ground. The real dimensions of any lasting solution are harsher and more paradoxical than most are willing to admit.
 
 **Phenomenon (Micro): The Cliff-Edge Moment — The Unbidden as Interrupt**
-
-              \[THE MICRO ATTENTION INTERRUPT\]  
                  
 ```mermaid
 graph LR
@@ -68,9 +66,7 @@ First, there is the **Observed**. This is the raw, unpolished external input—t
 Next comes the **Unbidden** (Mode B). This is the generative, emotionally charged subconscious layer that works beneath the surface. It acts as an aggressive salience multiplier, constantly running parallel simulations in the background and tagging certain observations with an immediate sense of urgency—fear, compassion, disgust, excitement, or that delicious bit of protective vertigo. Without this layer to turn up the volume, nothing would ever feel important. The world would remain a flat, gray spreadsheet, and the auto-pilot script would never be broken.
 
 Finally, there is **Mode A**. This is the active mediating and boundary-enforcing layer. It sits like a weary Whitehall magistrate, receiving the frantic emotional interrupts from Mode B. It feels their full weight, applies logical and contextual filters, and ultimately determines how that sudden burst of volume should actually integrate into conscious attention.
-
-                  \[THE RECIPROCAL FEEDBACK LOOP\]  
-                      
+                  
 ```mermaid
 graph TD
     %% Style definitions
@@ -107,8 +103,6 @@ The micro-tragedy at the cliff edge is not an isolated curiosity to be giggled a
 The consequences of allowing this cognitive machinery to slide into uncalibrated decay are currently on display across the globe in a form that is as stark as it is thoroughly ridiculous. One refers, of course, to the modern phenomenon of tourists quite literally walking off cliffs while attempting to photograph their own faces.
 
 The settings for these little structural failures are never mysterious. They are invariably festooned with bright red warning signs and sturdy iron railings; the drop itself is entirely salient to any functional eye. Yet, with a regularity that begins to look like a statistics ledger, individuals will turn their backs to a five-hundred-foot plunge, lean backward to capture the optimal lighting, and step blithely into the void.
-
-                    \[THE COGNITIVE COLLISION\]  
                         
 ```mermaid
 graph TD
@@ -154,8 +148,6 @@ Every civilization, it turns out, stands at its own quite literal cliff edge—t
 
 A functional mind, much like a functional kingdom, avoids disaster by maintaining a state of healthy, dynamic complementarity within its attention accounts. Mode B must be permitted to generate its interrupts freely and with immense voltage, flooding the system with vivid salience around care, possibility, connection, and raw moral intuition. But Mode A must remain the unyielding sovereign. It must feel the full, shaking force of each emotional interrupt, evaluate its credentials using the cold instruments of reason, and decide exactly how it should be integrated—or whether it should be promptly bounded and led away by the ear.
 
-                    \[THE ADMINISTRATIVE RETRIAL\]  
-                        
 ```mermaid
 graph TD
     %% Style definitions
@@ -203,8 +195,6 @@ The honest, bloodless answer is an unqualified *no*—and one should be profound
 
 The hunger for total, unblemished consensus is ancient and deeply rooted in our biological ledger. It satisfies some of our most powerful, unglamorous instincts: the craving for neat narrative coherence, the primate comfort of uncritical social connection, and the substantial status boost that comes from visible moral alignment with the herd. When everyone in the room nods along in perfect, synchronized harmony, immediate friction drops to zero. Systemic tension dissolves into a warm bath of mutual validation. The participants experience a vivid, felt sense of progress, maturity, and absolute safety.
 
-                 \[THE SEDUCTIVE CONSENSUS TRAP\]  
-                     
 ```mermaid
 graph TD
     %% Style definitions
