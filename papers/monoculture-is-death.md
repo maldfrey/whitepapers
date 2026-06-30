@@ -27,9 +27,18 @@ This is not the end of the inquiry. It is the necessary clearing of ground. The 
 
               \[THE MICRO ATTENTION INTERRUPT\]  
                  
-  Auto-Pilot Script ──► The Unbidden (Mode B Simulation) ──► Mode A Filter  
-  "Enjoying the View"     "What if I pushed him?"             "Step Back / Danger"  
-                             (Salience Spike)
+```mermaid
+graph LR
+    %% Style definitions
+    classDef neutral fill:#f5f5f5,stroke:#777,stroke-width:1px,color:#333;
+    classDef spike fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+    classDef filter fill:#e8f5e9,stroke:#2e7d32,stroke-width:1.5px,color:#1b5e20;
+
+    A["Auto-Pilot Script<br><i>'Enjoying the View'</i>"] --> B["The Unbidden<br><i>(Mode B Simulation: 'What if I pushed him?')</i><br>⚠️ [SALIENCE SPIKE]"]:::spike
+    B --> C["Mode A Filter<br><i>'Step Back / Danger'</i>"]:::filter
+
+    class A neutral;
+```
 
 Two gentlemen stand abreast at the edge of a rather magnificent precipice. Before them spreads a vast, empty canyon, a sheer drop of quite spectacular finality that plunges down into the rocks below. It is a view that should, by all rights, command absolute, trembling reverence.  
 Yet, at this precise moment, the primary subject is paying no real attention to the void. The abyss is merely background noise. His mind is drifting on a pleasant, low-voltage auto-pilot—perhaps pondering whether the hotel tea will arrive lukewarm, or simply admiring the clouds like a properly conditioned tourist. For several long, tranquil minutes, the cliff edge remains entirely neutral—a harmless, static prop in the scenery of a thoroughly comfortable life. The drop is massive, but the mind has categorized it as safely decorative.
@@ -62,17 +71,24 @@ Finally, there is **Mode A**. This is the active mediating and boundary-enforcin
 
                   \[THE RECIPROCAL FEEDBACK LOOP\]  
                       
-     ┌────────────────────────────────────────────────────────┐  
-     │                     CONSCIOUS REALITY                  │  
-     │                                                        │  
-     │    \[Observed Data\] ──► \[Unbidden (Mode B)\]             │  
-     │                              │ (Emotional Interrupt)   │  
-     │                              ▼                         │  
-     │                        \[Mode A Filter\] ────────────────┼───► Realized  
-     └──────────────────────────────┬─────────────────────────┘     Attention  
-                                    │  
-                                    ▼  
-                        (Recursive Calibration)
+```mermaid
+graph TD
+    %% Style definitions
+    classDef box fill:#fafafa,stroke:#333,stroke-width:1.5px,stroke-dasharray: 5 5,color:#111;
+    classDef nodeStyle fill:#ffffff,stroke:#0288d1,stroke-width:1.5px,color:#01579b;
+    classDef outputStyle fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20,font-weight:bold;
+
+    subgraph CR ["CONSCIOUS REALITY"]
+        OBS["Observed Data<br>(Neutral Input)"] --> MB["Unbidden (Mode B)<br>(Salience Multiplier)"]
+        MB -->|Emotional Interrupt| MA["Mode A Filter<br>(Magistrate)"]
+        MA -->|Recursive Calibration| MB
+    end
+
+    MA -->|Actioned Knowledge| ATT["Realized Attention"]:::outputStyle
+
+    class CR box;
+    class OBS,MB,MA nodeStyle;
+```
 
 This structural architecture possesses a rather precise, almost tedious parallel in the established models of information processing beloved by corporate management theorists. In those dry lecture halls, raw data becomes information only when context and meaning are injected, and it matures into knowledge when that information is evaluated, bounded, and made actionable.
 
@@ -94,10 +110,21 @@ The settings for these little structural failures are never mysterious. They are
 
                     \[THE COGNITIVE COLLISION\]  
                         
-   Dominant Expression: Validation / Selfie ──► Floods System with Salience  
-                                                        ▲  
-                                                        │ (No Interrupt)  
-   Atrophied Expression: Safety / Caution   ──► Muted Mode B / Weak Voltage
+```mermaid
+graph TD
+    %% Style definitions
+    classDef dominant fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100,font-weight:bold;
+    classDef atrophied fill:#f5f5f5,stroke:#ccc,stroke-width:1px,color:#999;
+    classDef error fill:#ffebee,stroke:#c62828,stroke-width:1px,color:#b71c1c,stroke-dasharray: 4 4;
+
+    DOM["Dominant Expression: Validation / Selfie"] -->|Floods System| SAL["Overwhelming Salience"]:::dominant
+    ATR["Atrophied Expression: Safety / Caution"] -->|Muted Mode B / Weak Voltage| MUT["Muted Interrupt"]:::atrophied
+    
+    MUT -.-x|Failed to Break Autopilot| DOM:::error
+
+    class DOM dominant;
+    class ATR atrophied;
+```
 
 The catastrophic final step is rarely a sudden, dramatic madness. It is merely the ledger balancing itself at the endpoint of a very long, very comfortable chain of prior choices that have systematically rewired the way the mind executes its internal programming.
 
@@ -129,11 +156,20 @@ A functional mind, much like a functional kingdom, avoids disaster by maintainin
 
                     \[THE ADMINISTRATIVE RETRIAL\]  
                         
-   Dominant Script (Flooding System) ──► Rejects Quiet Survival Script  
-                                                   ▲  
-                                                   │ (Forced Retrial)  
-   Mode A Magistrate ──────────────────────────────┴──► Summons Context/Evidence  
-                                                          "Look at the ledger."
+```mermaid
+graph TD
+    %% Style definitions
+    classDef magistrate fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b,font-weight:bold;
+    classDef script fill:#fff3e0,stroke:#ef6c00,stroke-width:1.5px,color:#e65100;
+    classDef survival fill:#f5f5f5,stroke:#777,stroke-width:1.5px,color:#333;
+
+    DOM["Dominant Script<br>(Immediate Moral Preening)"] -->|Silences| SURV["Quiet Survival Script<br>(Boundary Maintenance)"]:::survival
+    MAG["Mode A Magistrate"] -->|Forced Stay of Execution| DOM
+    MAG -->|Summons Balance Sheets & Context| SURV
+
+    class MAG magistrate;
+    class DOM script;
+```
 
 Importantly, this is not a crude, linear filtering system operating inside a single train of thought. It is an intricate, multi-threaded orchestration conducted across entirely competing expressions. A disciplined Mode A acts as a weary but unyielding magistrate; it is designed to notice when a loud, high-status script—such as immediate moral preening—has successfully hijacked the courtroom, while a vital, unglamorous script—such as long-term boundary maintenance—has been summarily dismissed without a hearing.
 
@@ -169,10 +205,19 @@ The hunger for total, unblemished consensus is ancient and deeply rooted in our 
 
                  \[THE SEDUCTIVE CONSENSUS TRAP\]  
                      
-   Total Agreement ──► Drops Friction ──► Warm Sense of Progress  
-          ▲                                           │  
-          │                                           ▼  
-   Eliminate Variety ◄─── Treat Dissent as Malice ◄─── Protect the Warmth
+```mermaid
+graph TD
+    %% Style definitions
+    classDef startNode fill:#fffde7,stroke:#fbc02d,stroke-width:2px,color:#57600f,font-weight:bold;
+    classDef stepNode fill:#fff3e0,stroke:#ef6c00,stroke-width:1px,color:#e65100;
+    classDef trapNode fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,font-weight:bold;
+
+    AGREE["Total Agreement"]:::startNode -->|Drops Friction| FRIC["Warm Sense of Progress"]:::stepNode
+    FRIC -->|Desire to Defend| WARMT["Protect the Warmth"]:::stepNode
+    WARMT -->|Outgrouping/Compliance| DISS["Treat Dissent as Malice"]:::trapNode
+    DISS -->|Systemic Purification| ELIM["Eliminate Variety"]:::trapNode
+    ELIM --> AGREE
+```
 
 At the individual level, this sensation is highly pleasant and occasionally quite useful. Inside a small, high-trust tribe facing an immediate, physical threat from across the river, total alignment can be lifesaving. But when scaled up to the level of a sprawling, multi-layered civilization, the dream of a final consensus ceases to be a harmless, unrealistic fantasy. It becomes an actively lethal pathogen.
 
